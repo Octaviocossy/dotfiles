@@ -31,8 +31,7 @@ These dotfiles are likely to change over time. All the config what found in this
 - [coc-tsserver](https://github.com/neoclide/coc-tsserver) <br>
 - [coc-css](https://github.com/neoclide/coc-css) <br>
 
-
-![terminal](./pictures/nvim-pika.png)
+![nvim](./pictures/nvim-pika.png)
 
 ## Shell Setup
 
@@ -41,3 +40,8 @@ These dotfiles are likely to change over time. All the config what found in this
 - [Terminal icons](https://github.com/devblackops/Terminal-Icons) <br>
 - [PSReadLine](https://github.com/PowerShell/PSReadLine) <br>
 - [z](https://www.powershellgallery.com/packages/z/1.1.9) <br>
+
+## Iterm Setup
+
+- [Oh-My-Zsh](https://ohmyz.sh/) <br>
+- [spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) <br>
