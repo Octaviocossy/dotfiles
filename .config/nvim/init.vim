@@ -21,7 +21,7 @@ set shell=fish
 set lazyredraw
 set ignorecase
 set smarttab
-"
+
 " indents
 filetype plugin indent on
 set shiftwidth=2
@@ -35,7 +35,7 @@ set backspace=start,eol,indent
 if has('nvim')
   set inccommand=split
 endif
-"
+
 " Finding files - Search down into subfolders
 set path+=**
 set wildignore+=*/node_modules/*
@@ -125,5 +125,3 @@ autocmd FileType tsx let b:coc_suggest_disable = 1
 autocmd FileType typeScript let b:coc_suggest_disable = 1
 autocmd FileType typescriptreact let b:coc_suggest_disable = 1
 "}}}
-
-" vim: set foldmethod=marker foldlevel=0:
