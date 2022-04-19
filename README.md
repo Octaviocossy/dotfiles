@@ -16,7 +16,6 @@ Requires Neovim >= 0.5
 
 - `brew install --HEAD tree-sitter luajit neovim`
 - `npm install -g typescript typescript-language-server`
-- `npm install -g typescript typescript-language-server`
 - `npm install -g diagnostic-languageserver`
 - `npm i -g eslint_d prettier`
 - `pip3 install --user pynvim`
