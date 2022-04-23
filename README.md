@@ -25,9 +25,7 @@ Requires Neovim >= 0.5
 - [vim-fugitive](https://github.com/tpope/vim-fugitive) - A Vim plug for git<br>
 - [vim-rhubarb](https://github.com/tpope/vim-rhubarb) - Hub for fugitive.vim<br>
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - A Neovim statusline written in Lua<br>
-- [defx](https://github.com/Shougo/defx.nvim) - A file explorer<br>
-- [defx-git](https://github.com/kristijanhusak/defx-git) - Git status implementation for defx<br>
-- [defx-icons](https://github.com/kristijanhusak/defx-icons) - Custom implementation of vim-devicons for defx<br>
+- [chadtree](https://github.com/ms-jpq/chadtree) - A file explorer<br>
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A collection of configurations for Neovim's built-in LSP<br>
 - [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer/) - An LSP server installer<br>
 - [lspsaga](https://github.com/glepnir/lspsaga.nvim) - A light-weight lsp plugin based on neovim built-in lsp with highly a performant UI<br>

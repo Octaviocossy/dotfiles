@@ -6,6 +6,9 @@ map <silent>Q :q<CR>
 map <silent>N :sp<cr>
 map <silent>NP :vsp<cr>
 
+" Chad-Tree
+nnoremap <silent>sf <cmd>CHADopen<cr>
+
 " faster scrolling
 nnoremap <silent> <C-e> 10<C-e>
 nnoremap <silent> <C-y> 10<C-y>
