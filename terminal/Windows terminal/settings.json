@@ -106,7 +106,7 @@
         "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
         "hidden": false,
         "name": "Ubuntu 20.04.4 LTS",
-        "opacity": 65,
+        "opacity": 45,
         "padding": "0",
         "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
         "useAcrylic": true
