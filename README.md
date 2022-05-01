@@ -5,7 +5,7 @@ These dotfiles are likely to change over time. All the config what found in this
 ## Contents
 
 - Neovim config
-- fish config
+- Zsh config
 - PowerShell confing
 
 ## Neovim Setup
