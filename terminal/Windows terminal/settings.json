@@ -58,7 +58,7 @@
   "experimental.rendering.forceFullRepaint": false,
   "experimental.rendering.software": false,
   "initialCols": 95,
-  "initialRows": 30,
+  "initialRows": 25,
   "launchMode": "default",
   "profiles": {
     "defaults": {
@@ -73,40 +73,15 @@
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "Campbell",
-        "commandline": "C:\\Windows\\system32\\wsl.exe -d Ubuntu",
-        "cursorShape": "filledBox",
+        "colorScheme": "Snazzy",
         "font": {
-          "face": "Hack NF"
-        },
-        "guid": "{99b922b7-8937-43df-8102-7c04526d7fdc}",
-        "hidden": false,
-        "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
-        "name": "Ubuntu",
-        "opacity": 30,
-        "padding": "1",
-        "scrollbarState": "hidden",
-        "startingDirectory": "~",
-        "tabTitle": "Dev",
-        "useAcrylic": true
-      },
-      {
-        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-        "hidden": true,
-        "name": "Ubuntu-20.04",
-        "source": "Windows.Terminal.Wsl"
-      },
-      {
-        "bellStyle": "none",
-        "colorScheme": "Solarized Dark (Modded)",
-        "font": {
-          "face": "Hack NF",
+          "face": "JetBrainsMono NF",
           "size": 14
         },
         "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
         "hidden": false,
         "name": "Ubuntu 20.04.4 LTS",
-        "opacity": 45,
+        "opacity": 100,
         "padding": "0",
         "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
         "useAcrylic": true
@@ -205,6 +180,29 @@
       "selectionBackground": "#FFFFFF",
       "white": "#FAFAFA",
       "yellow": "#C18301"
+    },
+    {
+      "background": "#282A36",
+      "black": "#282A36",
+      "blue": "#57C7FF",
+      "brightBlack": "#686868",
+      "brightBlue": "#57C7FF",
+      "brightCyan": "#9AEDFE",
+      "brightGreen": "#5AF78E",
+      "brightPurple": "#FF6AC1",
+      "brightRed": "#FF5C57",
+      "brightWhite": "#EFF0EB",
+      "brightYellow": "#F3F99D",
+      "cursorColor": "#97979B",
+      "cyan": "#9AEDFE",
+      "foreground": "#EFF0EB",
+      "green": "#5AF78E",
+      "name": "Snazzy",
+      "purple": "#FF6AC1",
+      "red": "#FF5C57",
+      "selectionBackground": "#3E404A",
+      "white": "#F1F1F0",
+      "yellow": "#F3F99D"
     },
     {
       "background": "#002B36",
@@ -374,4 +372,3 @@
   "theme": "system",
   "useAcrylicInTabRow": true
 }
-
