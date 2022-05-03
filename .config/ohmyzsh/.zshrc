@@ -1,6 +1,5 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
 
 # Theme
 ZSH_THEME="spaceship"
@@ -9,6 +8,7 @@ source "$HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # plugins
 plugins=(git zsh-z)
+source $ZSH/oh-my-zsh.sh
 
 # Alias
 alias lla=l
