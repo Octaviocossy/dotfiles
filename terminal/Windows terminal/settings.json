@@ -58,7 +58,7 @@
   "experimental.rendering.forceFullRepaint": false,
   "experimental.rendering.software": false,
   "initialCols": 95,
-  "initialRows": 25,
+  "initialRows": 30,
   "launchMode": "default",
   "profiles": {
     "defaults": {
@@ -75,8 +75,8 @@
         "bellStyle": "none",
         "colorScheme": "Snazzy",
         "font": {
-          "face": "JetBrainsMono NF",
-          "size": 14
+          "face": "CaskaydiaCove NF",
+          "size": 13
         },
         "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
         "hidden": false,
@@ -84,7 +84,7 @@
         "opacity": 100,
         "padding": "0",
         "source": "CanonicalGroupLimited.Ubuntu20.04LTS_79rhkp1fndgsc",
-        "useAcrylic": true
+        "useAcrylic": false
       }
     ]
   },
