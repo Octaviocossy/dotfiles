@@ -14,6 +14,7 @@ source $ZSH/oh-my-zsh.sh
 alias lla=l
 alias v=nvim
 alias g=git
+alias glog=git log --oneline
 
 # Brew Config (Linux)
 # echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/USER/.profile

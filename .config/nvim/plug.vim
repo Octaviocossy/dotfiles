@@ -12,7 +12,7 @@ if has("nvim")
   Plug 'hoob3rt/lualine.nvim' 
  
   " File explorer
-  Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': 'python3 -m chadtree deps'}
+  Plug 'kyazdani42/nvim-tree.lua'
 
   " LSP
   Plug 'neovim/nvim-lspconfig'
