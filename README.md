@@ -25,7 +25,7 @@ Requires Neovim >= 0.5
 - [vim-fugitive](https://github.com/tpope/vim-fugitive) - A Vim plug for git<br>
 - [vim-rhubarb](https://github.com/tpope/vim-rhubarb) - Hub for fugitive.vim<br>
 - [lualine](https://github.com/nvim-lualine/lualine.nvim) - A Neovim statusline written in Lua<br>
-- [chadtree](https://github.com/ms-jpq/chadtree) - A file explorer<br>
+- [nvim-tree](https://github.com/kyazdani42/nvim-tree.lua) - A File Explorer For Neovim Written In Lua<br>
 - [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig) - A collection of configurations for Neovim's built-in LSP<br>
 - [nvim-lsp-installer](https://github.com/williamboman/nvim-lsp-installer/) - An LSP server installer<br>
 - [lspsaga](https://github.com/glepnir/lspsaga.nvim) - A light-weight lsp plugin based on neovim built-in lsp with highly a performant UI<br>
@@ -72,6 +72,7 @@ Requires Neovim >= 0.5
 - [Fish shell](https://fishshell.com/) - fish is a smart and user-friendly command line shell<br>
 - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager<br>
 - [Tide](https://github.com/IlanCosman/tide) - Shell theme<br>
+- [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
 - [z for fish](https://github.com/jethrokuan/z) - Directory jumper<br>
 - [Exa](https://the.exa.website/) - ls replacement<br>
