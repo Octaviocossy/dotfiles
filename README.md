@@ -6,7 +6,7 @@ These dotfiles are likely to change over time. All the config what found in this
 
 - Neovim config
 - Zsh config
-- PowerShell confing
+- PowerShell config
 
 ## Neovim Setup
 
@@ -58,7 +58,7 @@ Requires Neovim >= 0.5
 - [PSReadLine](https://github.com/PowerShell/PSReadLine) - Used for autocompletion<br>
 - [z](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
 
-## Linux shell Setup
+## ZSH Setup
 
 - [Zsh shell](https://www.zsh.org/) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.<br>
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - An open source, community-driven framework for managing your zsh configuration.<br>
@@ -67,7 +67,7 @@ Requires Neovim >= 0.5
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
 - [z for zsh](https://github.com/agkozak/zsh-z) - Directory jumper<br>
 
-## Iterm Setup (Mac OS)
+## Fish Shell Setup
 
 - [Fish shell](https://fishshell.com/) - fish is a smart and user-friendly command line shell<br>
 - [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager<br>
