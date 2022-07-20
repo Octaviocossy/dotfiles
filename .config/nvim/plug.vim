@@ -13,7 +13,10 @@ if has("nvim")
  
   " File explorer
   Plug 'kyazdani42/nvim-tree.lua'
-
+  
+  " Theme
+  Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+  
   " LSP
   Plug 'neovim/nvim-lspconfig'
   Plug 'williamboman/nvim-lsp-installer'

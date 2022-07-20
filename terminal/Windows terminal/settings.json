@@ -73,10 +73,10 @@
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "Snazzy",
+        "colorScheme": "Embark (Modded)",
         "font": {
-          "face": "CaskaydiaCove NF",
-          "size": 13
+          "face": "Hack NF",
+          "size": 11
         },
         "guid": "{5a069d55-87bd-57cf-8a07-2726b203d3e5}",
         "hidden": false,
@@ -249,6 +249,29 @@
       "selectionBackground": "#FFFFFF",
       "white": "#EEE8D5",
       "yellow": "#B58900"
+    },
+    {
+      "background": "#1E1824",
+      "black": "#1E1C31",
+      "blue": "#91DDFF",
+      "brightBlack": "#585273",
+      "brightBlue": "#65B2FF",
+      "brightCyan": "#63F2F1",
+      "brightGreen": "#62D196",
+      "brightPurple": "#A37ACC",
+      "brightRed": "#F02E6E",
+      "brightWhite": "#8A889D",
+      "brightYellow": "#F2B482",
+      "cursorColor": "#A1EFD3",
+      "cyan": "#87DFEB",
+      "foreground": "#CBE3E7",
+      "green": "#A1EFD3",
+      "name": "Embark (Modded)",
+      "purple": "#D4BFFF",
+      "red": "#F48FB1",
+      "selectionBackground": "#3E3859",
+      "white": "#CBE3E7",
+      "yellow": "#FFE6B3"
     },
     {
       "background": "#FDF6E3",

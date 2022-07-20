@@ -15,7 +15,6 @@ alias ll "ls -l"
 alias lla "ll -A"
 alias g git
 alias v nvim
-alias glog git log --oneline
 
 set LOCAL_CONFIG (dirname (status --current-filename))/config-local.fish
 if test -f $LOCAL_CONFIG

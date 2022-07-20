@@ -2,9 +2,9 @@ if !exists('#LspColors') | finish | endif
 
 lua << EOF
 require("lsp-colors").setup({
-  Error = "#db4b4b",
-  Warning = "#e0af68",
-  Information = "#0db9d7",
-  Hint = "#10B981"
+  Error = "#E78284",
+  Warning = "#F2D5CF",
+  Information = "#85C1DC",
+  Hint = "#A6D189"
 })
 EOF
