@@ -12,10 +12,17 @@ source $ZSH/oh-my-zsh.sh
 
 # Alias
 alias lla=l
-alias v=nvim
-alias g=git
-alias glog=git log --oneline
+alias v=openNvim
 
 # Brew Config (Linux)
 # echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/USER/.profile
 # eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Nvim config
+function openNvim {
+  if [ $# -eq 0 ]; then
+    nvim .
+  else
+    nvim $1
+  fi
+}

@@ -19,8 +19,8 @@ $omp_config = Join-Path $PSScriptRoot ".\ovct_config.omp.json"
 oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
 
 # Alias
-Set-Alias v nvim
 Set-Alias l ls
 Set-Alias ll ls 
+Set-Alias lla ls 
 
 

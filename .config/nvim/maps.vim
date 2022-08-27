@@ -4,25 +4,53 @@ let mapleader = " "
 map <leader>w :w<CR>
 map <leader>q :q<CR>
 
-" split screen
-map <leader>n :sp<cr>
-map <leader>np :vsp<cr>
+" Coc
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
 
-" faster scrolling
-nnoremap <silent> <C-e> 10<C-e>
-nnoremap <silent> <C-y> 10<C-y>
+" Explorer
+noremap <leader>e :NERDTreeToggle<cr>
+noremap <leader>d :Files<cr>
 
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
+" tabs navigation
+map <Leader>h :tabprevious<cr>
+map <Leader>l :tabnext<cr>
 
-nnoremap <silent> <right> :vertical resize +5<CR>
-nnoremap <silent> <left> :vertical resize -5<CR>
-nnoremap <silent> <up> :resize +5<CR>
-nnoremap <silent> <down> :resize -5<CR>
+" Eslint
+map <Leader>f :CocCommand eslint.executeAutofix<cr>
 
-" Nvim tree
-nnoremap <leader>e :NvimTreeToggle<CR>
-nnoremap <leader>r :NvimTreeRefresh<CR>
-nnoremap <leader>x :NvimTreeFindFile<CR>
+" Terminal
+noremap <leader>z :botright vnew <Bar> :terminal<cr>
+noremap <leader>a :botright new <Bar> :terminal<cr>
+:tnoremap <Esc> <C-\><C-n>
+
+" Auto-completion Coc
+function! CheckBackspace() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+inoremap <silent><expr> <Tab>
+      \ coc#pum#visible() ? coc#pum#next(1) :
+      \ CheckBackspace() ? "\<Tab>" :
+      \ coc#refresh()
+
+inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
+
+" Split screen
+map <Leader>s :sp<cr>
+map <Leader>sv :vsp<cr>
+
+" Split resize
+nnoremap <Leader>> 10<C-w>>
+nnoremap <Leader>< 10<C-w><
+
+" Tmux navigation
+nnoremap <silent> <C-h> :lua require'nvim-tmux-navigation'.NvimTmuxNavigateLeft()<cr>
+nnoremap <silent> <C-j> :lua require'nvim-tmux-navigation'.NvimTmuxNavigateDown()<cr>
+nnoremap <silent> <C-k> :lua require'nvim-tmux-navigation'.NvimTmuxNavigateUp()<cr>
+nnoremap <silent> <C-l> :lua require'nvim-tmux-navigation'.NvimTmuxNavigateRight()<cr>
+nnoremap <silent> <C-\> :lua require'nvim-tmux-navigation'.NvimTmuxNavigateLastActive()<cr>
+nnoremap <silent> <C-Space> :lua require'nvim-tmux-navigation'.NvimTmuxNavigateNext()<cr>

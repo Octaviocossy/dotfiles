@@ -1,50 +1,34 @@
-if has("nvim")
-  let g:plug_home = stdpath('data') . '/plugged'
-endif
-
-call plug#begin()
-
-Plug 'tpope/vim-fugitive'
-Plug 'tpope/vim-rhubarb'
-
-if has("nvim")
-  "A blazing fast and easy to configure Neovim statusline written in Lua.
-  Plug 'hoob3rt/lualine.nvim' 
- 
-  " File explorer
-  Plug 'kyazdani42/nvim-tree.lua'
+call plug#begin('~/.vim/plugged')
+  " fzf
+  Plug 'junegunn/fzf.vim'
+  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   
   " Theme
-  Plug 'catppuccin/nvim', {'as': 'catppuccin'}
+  Plug 'morhetz/gruvbox'
   
-  " LSP
-  Plug 'neovim/nvim-lspconfig'
-  Plug 'williamboman/nvim-lsp-installer'
-  Plug 'tami5/lspsaga.nvim'
-  Plug 'folke/lsp-colors.nvim'
-  Plug 'onsails/lspkind-nvim'
- 
-  " Completion
-  Plug 'hrsh7th/cmp-nvim-lsp'
-  Plug 'hrsh7th/cmp-buffer'
-  Plug 'hrsh7th/nvim-cmp'
- 
-  "Syntax
-  Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-  " Snippets
-  Plug 'L3MON4D3/LuaSnip'
-
-  " Others
-  Plug 'alexghergh/nvim-tmux-navigation'
+  " Status bar
+  Plug 'nvim-lualine/lualine.nvim'
   Plug 'kyazdani42/nvim-web-devicons'
-  Plug 'nvim-lua/popup.nvim'
-  Plug 'nvim-lua/plenary.nvim'
-  Plug 'nvim-telescope/telescope.nvim'
-  Plug 'windwp/nvim-autopairs'
-  Plug 'windwp/nvim-ts-autotag'
-endif
 
+  " Syntax highlighter
+  Plug 'sheerun/vim-polyglot'
+  
+  " tmux
+  Plug 'alexghergh/nvim-tmux-navigation'
+
+  " NerdTree
+  Plug 'preservim/nerdtree'
+  Plug 'ryanoasis/vim-devicons'
+  Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+  
+  " Git
+  Plug 'tpope/vim-fugitive'
+  Plug 'xuyuanp/nerdtree-git-plugin'
+
+  " IDE
+  Plug 'eslint/eslint'
+  Plug 'alvan/vim-closetag'
+  Plug 'jiangmiao/auto-pairs'
+  Plug 'scrooloose/nerdcommenter'
+  Plug 'neoclide/coc.nvim' , { 'tag': '*', 'branch' : 'release' }
 call plug#end()
-
