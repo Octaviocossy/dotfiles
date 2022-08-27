@@ -27,4 +27,3 @@ set smartcase
 syntax on
 colorscheme gruvbox
 highlight normal ctermbg=none
-

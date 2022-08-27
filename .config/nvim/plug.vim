@@ -32,4 +32,5 @@ call plug#begin('~/.vim/plugged')
   Plug 'jiangmiao/auto-pairs'
   Plug 'scrooloose/nerdcommenter'
   Plug 'neoclide/coc.nvim' , { 'tag': '*', 'branch' : 'release' }
+  Plug 'yaegassy/coc-tailwindcss3', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
