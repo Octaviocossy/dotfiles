@@ -8,7 +8,6 @@ call plug#begin('~/.vim/plugged')
   
   " Status bar
   Plug 'nvim-lualine/lualine.nvim'
-  Plug 'kyazdani42/nvim-web-devicons'
 
   " Syntax highlighter
   Plug 'sheerun/vim-polyglot'
@@ -27,10 +26,9 @@ call plug#begin('~/.vim/plugged')
 
   " IDE
   Plug 'sirver/ultisnips'
-  Plug 'eslint/eslint'
   Plug 'alvan/vim-closetag'
   Plug 'jiangmiao/auto-pairs'
-  Plug 'scrooloose/nerdcommenter'
+  Plug 'preservim/nerdcommenter'
   Plug 'neoclide/coc.nvim' , { 'tag': '*', 'branch' : 'release' }
   Plug 'yaegassy/coc-tailwindcss3', {'do': 'yarn install --frozen-lockfile'}
 call plug#end()
