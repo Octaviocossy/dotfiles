@@ -1,14 +1,9 @@
 " Coc
-let g:coc_global_extensions = [ 'coc-tsserver', 'coc-eslint', 'coc-css', 'coc-html', 'coc-git' ]
+let g:coc_global_extensions = [ 'coc-tsserver', 'coc-eslint', 'coc-css', 'coc-html', 'coc-git', 'coc-snippets', 'coc-json' ]
 
 " NerdTree
 let NERDTreeShowHidden=1
 let NERDTreeQuitOnOpen=1
-let NERDTreeAutoDeleteBuffer=1
-let NERDTreeMinimalUI=1
-let NERDTreeDirArrows=1
-let NERDTreeShowLineNumbers=1
-let NERDTreeMapOpenInTab='\t'
 
 " fzf
 let $FZF_DEFAULT_COMMAND='find . \( -name node_modules -o -name .git \) -prune -o -print'
@@ -63,3 +58,10 @@ lua << END
     extensions = {}
   }
 END
+
+" UltiSnips
+let g:UltiSnipsSnippetDirectories=['~/.config/nvim/UltiSnips']
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsListSnippets="<C-_>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<S-tab>"

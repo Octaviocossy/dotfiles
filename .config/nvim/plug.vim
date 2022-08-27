@@ -26,6 +26,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'xuyuanp/nerdtree-git-plugin'
 
   " IDE
+  Plug 'sirver/ultisnips'
   Plug 'eslint/eslint'
   Plug 'alvan/vim-closetag'
   Plug 'jiangmiao/auto-pairs'
