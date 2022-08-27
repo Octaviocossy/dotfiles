@@ -21,6 +21,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
   
   " Git
+  Plug 'lewis6991/gitsigns.nvim'
   Plug 'tpope/vim-fugitive'
   Plug 'xuyuanp/nerdtree-git-plugin'
 
