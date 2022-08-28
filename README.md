@@ -33,6 +33,7 @@ Requires Neovim >= 0.5 </br>
 		 [Nerdtree git](https://github.com/Xuyuanp/nerdtree-git-plugin)
   } - A file system explorer for the Vim. <br>
 - [Fugitive](https://github.com/tpope/vim-fugitive) - The premier Vim plugin for Git.<br>
+- [Gitsigns](https://github.com/lewis6991/gitsigns.nvim) - Git integration for buffers.<br>
 - [UltiSnips](https://github.com/sirver/UltiSnips) - The ultimate snippet solution for Vim.<br>
 - [closetag](https://github.com/alvan/vim-closetag) - Auto close tags. <br>
 - [auto-pairs](https://github.com/jiangmiao/auto-pairs) - Insert or delete brackets, parens, quotes in pair.<br>
