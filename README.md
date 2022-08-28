@@ -1,12 +1,13 @@
 # About my dotfiles ☕️
 
-These dotfiles are likely to change over time. All the config what found in this repository was created in **MacOS system**, the files location can be diferent according to a system do you use.
+These dotfiles are likely to change over time. All the config what found in this repository was created in **WSL**.
 
 ## Contents
 
 - Neovim config
 - Zsh config
 - PowerShell config
+- tmux
 
 ## Neovim Setup
 Requires Neovim >= 0.5 </br>
@@ -25,7 +26,7 @@ Requires Neovim >= 0.5 </br>
 - [Gruvbox](https://github.com/morhetz/gruvbox) - A retro theme for neovim.<br>
 - [Lualine](https://github.com/nvim-lualine/lualine.nvim) - A blazing fast Neovim statusline written in Lua.<br>
 - [Polyglot](https://github.com/sheerun/vim-polyglot) - A collection of language packs for Vim.<br>
-- [Tmux navigation](https://github.com/alexghergh/nvim-tmux-navigation) - Tmux key bindings.<br>
+- [tmux navigation](https://github.com/alexghergh/nvim-tmux-navigation) - Tmux key bindings.<br>
 - NerdTree {
 		 [NerdTree](https://github.com/preservim/nerdtree),
 		 [Devicons](https://github.com/ryanoasis/vim-devicons),
