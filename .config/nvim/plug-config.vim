@@ -61,11 +61,12 @@ END
 
 " UltiSnips
 let g:UltiSnipsSnippetDirectories=['~/.config/nvim/UltiSnips']
-let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsListSnippets="<C-_>"
-let g:UltiSnipsJumpForwardTrigger="<tab>"
-let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
+"let g:UltiSnipsExpandTrigger="<tab>"
+"let g:UltiSnipsListSnippets="<C-_>"
+"let g:UltiSnipsJumpForwardTrigger="<tab>"
+"let g:UltiSnipsJumpBackwardTrigger="<S-tab>"
 
+" Gitsigns
 lua << END
   require('gitsigns').setup {
     signs = {
@@ -110,3 +111,5 @@ lua << END
   }
 END
 
+" AutoPairs
+let g:AutoPairsShortcutToggle = ""
