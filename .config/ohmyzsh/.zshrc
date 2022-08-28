@@ -9,6 +9,7 @@ source "$HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 # plugins
 plugins=(git zsh-z)
 source $ZSH/oh-my-zsh.sh
+alias t=tmux
 
 # Alias
 alias lla=l
