@@ -54,7 +54,7 @@
   "experimental.rendering.forceFullRepaint": false,
   "experimental.rendering.software": false,
   "initialCols": 100,
-  "initialRows": 30,
+  "initialRows": 35,
   "launchMode": "default",
   "profiles": {
     "defaults": {},
@@ -65,7 +65,7 @@
         "colorScheme": "Snazzy (Modded)",
         "cursorShape": "filledBox",
         "font": {
-          "face": "FiraCode NF",
+          "face": "Dank Mono",
           "size": 11,
           "weight": "normal"
         },
