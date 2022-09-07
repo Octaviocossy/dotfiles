@@ -66,20 +66,20 @@
         "cursorShape": "filledBox",
         "font": {
           "face": "Dank Mono",
-          "size": 11,
+          "size": 12,
           "weight": "normal"
         },
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "hidden": false,
         "intenseTextStyle": "none",
         "name": "Development",
-        "opacity": 100,
+        "opacity": 70,
         "padding": "2",
         "scrollbarState": "hidden",
         "source": "Windows.Terminal.Wsl",
         "suppressApplicationTitle": true,
         "tabTitle": "Dev",
-        "useAcrylic": false
+        "useAcrylic": true
       }
     ]
   },
