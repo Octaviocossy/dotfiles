@@ -121,7 +121,14 @@
   "editor.tabSize": 2,
   "editor.stickyScroll.enabled": true,
   "material-icon-theme.hidesExplorerArrows": true,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "workbench.sideBar.location": "right",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1
+  // "workbench.colorCustomizations": {
+    // "editorGutter.background": "#131a27",
+    // "editor.background": "#131a27",
+    // "breadcrumb.background": "#131a27",
+    // "tab.activeBackground": "#131a27"
+  // }
 }
