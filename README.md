@@ -6,7 +6,6 @@ These dotfiles are likely to change over time. All the config what found in this
 
 - Neovim config
 - Zsh config
-- Fish config
 - PowerShell config
 - tmux
 
@@ -55,16 +54,6 @@ Requires Neovim >= 0.5 </br>
 ## PowerShell Setup (Windows)
 
 - [Scoop](https://scoop.sh/) - A command-line installer<br>
-- [Oh-My-Posh](https://ohmyposh.dev/) - Prompt theme engine<br>
-- [Terminal icons](https://github.com/devblackops/Terminal-Icons) - Icons for terminal (folders and files)<br>
+- [Starship](https://starship.rs/) - A minimal, blazing-fast, and infinitely customizable prompt<br>
 - [PSReadLine](https://github.com/PowerShell/PSReadLine) - Used for autocompletion<br>
 - [z](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
-
-## Fish Setup
-
-- [Fish shell](https://fishshell.com/) - fish is a smart and user-friendly command line shell<br>
-- [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager<br>
-- [Tide](https://github.com/IlanCosman/tide) - Shell theme<br>
-- [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
-- [z for fish](https://github.com/jethrokuan/z) - Directory jumper<br>
-- [Exa](https://the.exa.website/) - ls replacement<br>
