@@ -73,7 +73,6 @@
       "before": ["<leader>", "a"],
       "commands": [":terminal"]
     },
-
     {
       "before": ["<leader>", "c"],
       "commands": ["editor.action.addCommentLine"]
@@ -81,6 +80,14 @@
     {
       "before": ["<leader>", "i"],
       "commands": ["editor.action.removeCommentLine"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["workbench.scm.focus"]
     }
   ],
   "vim.leader": "<space>",
@@ -113,16 +120,15 @@
   "window.commandCenter": true,
   "terminal.integrated.fontFamily": "MonoLisa",
   "workbench.iconTheme": "bearded-icons",
-  "editor.fontFamily": "MonoLisa",
+  "editor.fontFamily": "Hack NF",
   "editor.fontLigatures": true,
   "editor.fontWeight": "normal",
-  "editor.lineHeight": 2.3,
+  "editor.lineHeight": 2,
   "editor.tabSize": 2,
-  "editor.stickyScroll.enabled": true,
-  "editor.fontSize": 12,
+  "editor.fontSize": 13,
   "security.workspace.trust.untrustedFiles": "open",
   "reactSnippets.settings.importReactOnTop": false,
   "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "OM Theme (Default Dracula Italic)"
+  "workbench.colorTheme": "Solarized Sharp Dark"
 }
