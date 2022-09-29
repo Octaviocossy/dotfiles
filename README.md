@@ -23,7 +23,7 @@ Requires Neovim >= 0.5 </br>
 		 [fzf](https://github.com/junegunn/fzf),
 		 [fzf.vim](https://github.com/junegunn/fzf.vim)
   } - A general-purpose command-line fuzzy finder. <br>
-- [Gruvbox](https://github.com/morhetz/gruvbox) - A retro theme for neovim.<br>
+- [nightfly](https://github.com/bluz71/vim-nightfly-guicolors) - A dark GUI colorscheme for Neovim.<br>
 - [Lualine](https://github.com/nvim-lualine/lualine.nvim) - A blazing fast Neovim statusline written in Lua.<br>
 - [Polyglot](https://github.com/sheerun/vim-polyglot) - A collection of language packs for Vim.<br>
 - [tmux navigation](https://github.com/alexghergh/nvim-tmux-navigation) - Tmux key bindings.<br>
