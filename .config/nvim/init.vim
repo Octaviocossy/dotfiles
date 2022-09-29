@@ -25,5 +25,7 @@ set smartcase
 
 " Theme
 syntax on
-colorscheme gruvbox
+set termguicolors
+let g:nightflyTransparent = v:true
+colorscheme nightfly
 highlight normal ctermbg=none

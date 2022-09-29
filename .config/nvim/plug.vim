@@ -4,8 +4,8 @@ call plug#begin('~/.vim/plugged')
   Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
   
   " Theme
-  Plug 'morhetz/gruvbox'
-  
+  Plug 'bluz71/vim-nightfly-guicolors'
+
   " Status bar
   Plug 'nvim-lualine/lualine.nvim'
 

@@ -50,41 +50,69 @@
   "alwaysOnTop": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
-  "defaultProfile": "{1e274bdb-9f91-4d1e-bc48-baaa247d8bc5}",
+  "defaultProfile": "{8d5c8aaf-59fa-4516-a337-9fc85ed4b7cb}",
   "experimental.rendering.forceFullRepaint": false,
   "experimental.rendering.software": false,
   "initialCols": 100,
-  "initialRows": 33,
+  "initialRows": 30,
   "launchMode": "default",
   "profiles": {
     "defaults": {},
+
     "list": [
-      {
-        "antialiasingMode": "cleartype",
-        "colorScheme": "Snazzy (Modded V2)",
-        "commandline": "\"C:\\Users\\octav\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -nologo ",
-        "cursorShape": "filledBox",
-        "elevate": false,
-        "experimental.retroTerminalEffect": false,
-        "font": {
-          "face": "CaskaydiaCove NF",
-          "size": 10
-        },
-        "guid": "{1e274bdb-9f91-4d1e-bc48-baaa247d8bc5}",
-        "hidden": false,
-        "icon": "ms-appx:///ProfileIcons/pwsh.png",
-        "name": "Dev",
-        "opacity": 100,
-        "padding": "4",
-        "scrollbarState": "hidden",
-        "startingDirectory": "%USERPROFILE%",
-        "useAcrylic": false
-      }
+        {
+            "antialiasingMode": "cleartype",
+            "bellStyle": "none",
+            "closeOnExit": "never",
+            "colorScheme": "nightfly",
+            "commandline": "C:\\Windows\\system32\\wsl.exe -d Ubuntu",
+            "cursorShape": "filledBox",
+            "font": 
+            {
+                "face": "Hack NF",
+                "size": 11
+            },
+            "guid": "{8d5c8aaf-59fa-4516-a337-9fc85ed4b7cb}",
+            "hidden": false,
+            "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+            "intenseTextStyle": "all",
+            "name": "Linux",
+            "opacity": 75,
+            "padding": "2",
+            "scrollbarState": "hidden",
+            "startingDirectory": "~",
+            "suppressApplicationTitle": true,
+            "tabTitle": "Development",
+            "useAcrylic": true
+        }
     ]
   },
   "schemes": [
     {
-      "background": "#101220",
+      "background": "#011627",
+      "black": "#1D3B53",
+      "blue": "#82AAFF",
+      "brightBlack": "#7C8F8F",
+      "brightBlue": "#82AAFF",
+      "brightCyan": "#7FDBCA",
+      "brightGreen": "#21C7A8",
+      "brightPurple": "#AE81FF",
+      "brightRed": "#FF5874",
+      "brightWhite": "#D6DEEB",
+      "brightYellow": "#ECC48D",
+      "cursorColor": "#9CA1AA",
+      "cyan": "#7FDBCA",
+      "foreground": "#ACB4C2",
+      "green": "#A1CD5E",
+      "name": "nightfly",
+      "purple": "#C792EA",
+      "red": "#FC514E",
+      "selectionBackground": "#B2CEEE",
+      "white": "#A1AAB8",
+      "yellow": "#E3D18A"
+    },
+    {
+      "background": "#282A36",
       "black": "#282A36",
       "blue": "#57C7FF",
       "brightBlack": "#686868",
@@ -105,31 +133,9 @@
       "selectionBackground": "#3E404A",
       "white": "#F1F1F0",
       "yellow": "#F3F99D"
-    },
-    {
-      "background": "#282A36",
-      "black": "#282A36",
-      "blue": "#57C7FF",
-      "brightBlack": "#686868",
-      "brightBlue": "#57C7FF",
-      "brightCyan": "#9AEDFE",
-      "brightGreen": "#5AF78E",
-      "brightPurple": "#FF6AC1",
-      "brightRed": "#FF5C57",
-      "brightWhite": "#EFF0EB",
-      "brightYellow": "#F3F99D",
-      "cursorColor": "#97979B",
-      "cyan": "#9AEDFE",
-      "foreground": "#EFF0EB",
-      "green": "#5AF78E",
-      "name": "Snazzy (Modded V2)",
-      "purple": "#FF6AC1",
-      "red": "#FF5C57",
-      "selectionBackground": "#3E404A",
-      "white": "#F1F1F0",
-      "yellow": "#F3F99D"
     }
   ],
+  "useAcrylicInTabRow": true,
   "startOnUserLogin": true,
   "theme": "dark"
 }
