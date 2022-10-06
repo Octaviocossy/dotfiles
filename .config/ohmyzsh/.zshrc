@@ -4,6 +4,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Theme
 ZSH_THEME="spaceship"
 SPACESHIP_PROMPT_ADD_NEWLINE='false'
+SPACESHIP_PROMPT_ASYNC='false'
 source "$HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # plugins
