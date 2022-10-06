@@ -63,7 +63,7 @@
     },
     {
       "before": ["<leader>", "p"],
-      "commands": ["prettier.forceFormatDocument"]
+      "commands": ["editor.action.formatDocument"]
     },
     {
       "before": ["<leader>", "d"],
@@ -88,6 +88,10 @@
     {
       "before": ["<leader>", "g"],
       "commands": ["workbench.scm.focus"]
+    },
+    {
+      "before": ["<leader>", "m"],
+      "commands": ["objectExplorer.focus"]
     }
   ],
   "vim.leader": "<space>",
@@ -102,33 +106,29 @@
     "*.md": "markdown",
     "*.mdx": "markdown"
   },
-  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "terminal.integrated.fontFamily": "dank mono",
+  "editor.fontFamily": "dank mono",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.unicodeHighlight.ambiguousCharacters": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.defaultProfile.windows": "WSL",
+  "security.workspace.trust.untrustedFiles": "open",
+  "reactSnippets.settings.importReactOnTop": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.semanticHighlighting.enabled": true,
   "editor.cursorSmoothCaretAnimation": true,
-  "workbench.layoutControl.enabled": false,
+  "workbench.sideBar.location": "right",
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDragAndDrop": false,
-  "window.menuBarVisibility": "toggle",
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 14,
   "editor.cursorBlinking": "phase",
   "explorer.confirmDelete": false,
-  "window.commandCenter": true,
-  "terminal.integrated.fontFamily": "MonoLisa",
-  "workbench.iconTheme": "bearded-icons",
-  "editor.fontFamily": "Hack NF",
   "editor.fontLigatures": true,
   "editor.fontWeight": "normal",
   "editor.lineHeight": 2,
+  "editor.fontSize": 14,
   "editor.tabSize": 2,
-  "editor.fontSize": 13,
-  "security.workspace.trust.untrustedFiles": "open",
-  "reactSnippets.settings.importReactOnTop": false,
-  "workbench.activityBar.visible": false,
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Solarized Sharp Dark"
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.colorTheme": "Blue Moves Theme"
 }
