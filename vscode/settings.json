@@ -92,6 +92,10 @@
     {
       "before": ["<leader>", "m"],
       "commands": ["objectExplorer.focus"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["turboConsoleLog.displayLogMessage"]
     }
   ],
   "vim.leader": "<space>",
@@ -106,8 +110,8 @@
     "*.md": "markdown",
     "*.mdx": "markdown"
   },
-  "terminal.integrated.fontFamily": "dank mono",
-  "editor.fontFamily": "dank mono",
+  "terminal.integrated.fontFamily": "MonoLisa Nerd Font, Cascadia Code",
+  "editor.fontFamily": "MonoLisa Nerd Font, Cascadia Code",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.unicodeHighlight.ambiguousCharacters": false,
@@ -121,14 +125,18 @@
   "workbench.sideBar.location": "right",
   "editor.inlineSuggest.enabled": true,
   "explorer.confirmDragAndDrop": false,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "editor.cursorBlinking": "phase",
   "explorer.confirmDelete": false,
   "editor.fontLigatures": true,
   "editor.fontWeight": "normal",
-  "editor.lineHeight": 2,
-  "editor.fontSize": 14,
+  "editor.lineHeight": 1.7,
+  "editor.fontSize": 13,
   "editor.tabSize": 2,
-  "workbench.iconTheme": "bearded-icons",
-  "workbench.colorTheme": "Blue Moves Theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Synth1983 Green Wave (Black) 🌊",
+  "workbench.activityBar.visible": false,
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "compact",
+  "editor.guides.bracketPairs": true
 }

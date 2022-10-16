@@ -50,20 +50,20 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-  "initialCols": 90,
-  "initialRows": 30,
+  "initialCols": 85,
+  "initialRows": 33,
   "profiles": {
     "defaults": {},
     "list": [
       {
         "antialiasingMode": "grayscale",
         "bellStyle": "none",
-        "colorScheme": "Snazzy (Modded V2)",
+        "colorScheme": "Snazzy (Modded V3)",
         "cursorShape": "filledBox",
         "font": 
         {
-            "face": "Dank Mono",
-            "size": 11
+            "face": "MonoLisa Nerd Font",
+            "size": 10
         },
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "hidden": false,
@@ -74,7 +74,7 @@
         "source": "Windows.Terminal.Wsl",
         "tabTitle": "Development",
         "useAcrylic": true
-    },
+    }
     ]
   },
   "schemes": [
@@ -118,6 +118,29 @@
       "foreground": "#EFF0EB",
       "green": "#5AF78E",
       "name": "Snazzy (Modded V2)",
+      "purple": "#FF6AC1",
+      "red": "#FF5C57",
+      "selectionBackground": "#3E404A",
+      "white": "#F1F1F0",
+      "yellow": "#F3F99D"
+    },
+    {
+      "background": "#000000",
+      "black": "#282A36",
+      "blue": "#57C7FF",
+      "brightBlack": "#686868",
+      "brightBlue": "#57C7FF",
+      "brightCyan": "#9AEDFE",
+      "brightGreen": "#5AF78E",
+      "brightPurple": "#FF6AC1",
+      "brightRed": "#FF5C57",
+      "brightWhite": "#EFF0EB",
+      "brightYellow": "#F3F99D",
+      "cursorColor": "#97979B",
+      "cyan": "#9AEDFE",
+      "foreground": "#EFF0EB",
+      "green": "#5AF78E",
+      "name": "Snazzy (Modded V3)",
       "purple": "#FF6AC1",
       "red": "#FF5C57",
       "selectionBackground": "#3E404A",
