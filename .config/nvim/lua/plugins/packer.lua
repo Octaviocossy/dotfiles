@@ -20,25 +20,34 @@ return require('packer').startup(function()
 	use 'kyazdani42/nvim-web-devicons'
 	use 'kyazdani42/nvim-tree.lua'
 
-	-- Tmux nav
+	-- Tmux navigation
 	use 'alexghergh/nvim-tmux-navigation'
 
 	-- Statusline
 	use 'nvim-lualine/lualine.nvim'
 
-	-- Treesitter
-	use {
-		'nvim-treesitter/nvim-treesitter',
-		run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
-	}
-
-	-- Close tags
-	use 'windwp/nvim-autopairs'
-	use 'windwp/nvim-ts-autotag'
-
 	-- Fuzzy file finder
 	use 'nvim-telescope/telescope.nvim'
 	use 'nvim-telescope/telescope-file-browser.nvim'
+
+	-- Completion Plugins
+	use 'hrsh7th/nvim-cmp'
+	use 'hrsh7th/cmp-buffer'
+	use 'hrsh7th/cmp-path'
+	use 'hrsh7th/cmp-cmdline'
+	use 'hrsh7th/cmp-nvim-lsp'
+	use 'saadparwaiz1/cmp_luasnip'
+
+	-- Snippets
+	use 'L3MON4D3/LuaSnip'
+	use 'rafamadriz/friendly-snippets'
+
+	-- LSP
+	use {
+		'williamboman/mason.nvim',
+		'williamboman/mason-lspconfig.nvim',
+		'neovim/nvim-lspconfig'
+	}
 
 	if packer_bootstrap then
 		require('packer').sync()
