@@ -54,12 +54,16 @@ return require('packer').startup(function()
 
 	-- Close tags and more
 	use 'windwp/nvim-autopairs'
+	use 'windwp/nvim-ts-autotag'
 
 	-- Comments
 	use 'numToStr/Comment.nvim'
 
 	-- Git
 	use 'lewis6991/gitsigns.nvim'
+
+	-- Colorizer
+	use 'norcalli/nvim-colorizer.lua'
 
 	if packer_bootstrap then
 		require('packer').sync()
