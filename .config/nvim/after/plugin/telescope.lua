@@ -5,7 +5,6 @@ if (not status) then return end
 local actions = require('telescope.actions')
 local builtin = require("telescope.builtin")
 
-
 telescope.setup{
   defaults = {
     file_ignore_patterns = {"node_modules"},
@@ -24,4 +23,3 @@ vim.keymap.set('n', '<Leader>d', function()
 		hidden = true
 	})
 end)
-

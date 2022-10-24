@@ -1,4 +1,5 @@
 local fn = vim.fn
+
 local install_path = fn.stdpath('data') .. '/site/pack/packer/start/packer.nvim'
 
 if fn.empty(fn.glob(install_path)) > 0 then
@@ -20,7 +21,7 @@ return require('packer').startup(function()
 	use 'kyazdani42/nvim-web-devicons'
 	use 'kyazdani42/nvim-tree.lua'
 
-	-- Tmux navigation
+	-- Tmux nav
 	use 'alexghergh/nvim-tmux-navigation'
 
 	-- Statusline
@@ -28,7 +29,6 @@ return require('packer').startup(function()
 
 	-- Fuzzy file finder
 	use 'nvim-telescope/telescope.nvim'
-	use 'nvim-telescope/telescope-file-browser.nvim'
 
 	-- Completion Plugins
 	use 'hrsh7th/nvim-cmp'
@@ -48,6 +48,18 @@ return require('packer').startup(function()
 		'williamboman/mason-lspconfig.nvim',
 		'neovim/nvim-lspconfig'
 	}
+
+	-- Treesitter
+	use { 'nvim-treesitter/nvim-treesitter' }
+
+	-- Close tags and more
+	use 'windwp/nvim-autopairs'
+
+	-- Comments
+	use 'numToStr/Comment.nvim'
+
+	-- Git
+	use 'lewis6991/gitsigns.nvim'
 
 	if packer_bootstrap then
 		require('packer').sync()

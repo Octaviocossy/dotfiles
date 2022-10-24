@@ -8,4 +8,4 @@ require('plugins/packer')
 require('lsp')
 
 -- Msg
---print('Lua loaded - Happy Hacking!!!')
+print('init.lua loaded - Happy Hacking 🔮')
