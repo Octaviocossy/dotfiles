@@ -1,8 +1,10 @@
 local status_ok, comment = pcall(require, "Comment")
 
-if not status_ok then return end
+if not status_ok then
+	return
+end
 
-comment.setup {
+comment.setup({
 	---Add a space b/w comment and the line
 	padding = true,
 	---Whether the cursor should stay at its position
@@ -12,16 +14,16 @@ comment.setup {
 	---LHS of toggle mappings in NORMAL mode
 	toggler = {
 		---Line-comment toggle keymap
-		line = 'gcc',
+		line = "gcc",
 		---Block-comment toggle keymap
-		block = 'gbb',
+		block = "gbb",
 	},
 	---LHS of operator-pending mappings in NORMAL and VISUAL mode
 	opleader = {
 		---Line-comment keymap
-	line = 'gc',
-	---Block-comment keymap
-	block = 'gb',
+		line = "gc",
+		---Block-comment keymap
+		block = "gb",
 	},
 	---NOTE: If given `false` then the plugin won't create any mappings
 	mappings = {
@@ -34,4 +36,4 @@ comment.setup {
 	pre_hook = nil,
 	---Function to call after (un)comment
 	post_hook = nil,
-}
+})

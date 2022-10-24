@@ -1,23 +1,33 @@
-vim.cmd("autocmd!")
+local options = {
+	backup = false,
+	clipboard = "unnamedplus",
+	cmdheight = 2,
+	completeopt = { "menuone", "noselect" },
+	conceallevel = 0,
+	fileencoding = "utf-8",
+	hlsearch = true,
+	ignorecase = true,
+	mouse = "a",
+	showmode = false,
+	smartcase = true,
+	smartindent = true,
+	timeoutlen = 1000,
+	undofile = true,
+	updatetime = 300,
+	writebackup = false,
+	expandtab = true,
+	shiftwidth = 2,
+	tabstop = 2,
+	cursorline = true,
+	number = true,
+	relativenumber = false,
+	numberwidth = 2,
+	wrap = false,
+	termguicolors = true,
+}
 
-vim.scriptencoding = 'utf-8'
-vim.opt.encoding = 'utf-8'
-vim.opt.fileencoding = 'utf-8'
-vim.opt.relativenumber = true
-vim.opt.title = true
-vim.opt.autoindent = true
-vim.opt.smartindent = true
-vim.opt.smarttab = true
-vim.opt.wrap = false
-vim.opt.backup = false
+vim.opt.shortmess:append("c")
 
-vim.opt.cursorline = true
-vim.opt.termguicolors = true
-vim.opt.shiftwidth = 2
-vim.opt.tabstop = 2
-
--- Turn off paste mode when leaving insert
-vim.api.nvim_create_autocmd("InsertLeave", {
-	pattern = '*',
-	command = "set nopaste"
-})
+for x, y in pairs(options) do
+	vim.opt[x] = y
+end

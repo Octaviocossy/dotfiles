@@ -2,10 +2,10 @@
 vim.g.mapleader = " "
 
 -- Import config
-require('globals/options')
-require('globals/maps')
-require('plugins/packer')
-require('lsp')
+require("globals/options")
+require("globals/maps")
+require("plugins/packer")
+require("lsp")
 
 -- Msg
-print('init.lua loaded - Happy Hacking 🔮')
+print("init.lua loaded - Happy Hacking 🔮")
