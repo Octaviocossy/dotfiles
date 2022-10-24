@@ -17,4 +17,3 @@ keymap.set('n', 'tp', ':tabprevious<Return>')
 
 keymap.set('n', 'sh', ':split<Return><C-w>w')
 keymap.set('n', 'sv', ':vsplit<Return><C-w>w')
-

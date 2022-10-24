@@ -26,4 +26,5 @@ nvimtree.setup({
 })
 
 -- Keymap
+
 vim.keymap.set('n', '<Leader>e', ':NvimTreeFocus<Return>')
