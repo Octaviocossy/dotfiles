@@ -15,6 +15,7 @@ alias t=tmux
 # Alias
 alias lla=l
 alias v=openNvim
+alias t=openTmux
 
 # Brew Config (Linux)
 # echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/USER/.profile
@@ -26,5 +27,13 @@ function openNvim {
     nvim .
   else
     nvim $1
+  fi
+}
+
+function openTmux {
+  if [ $# -eq 0 ]; then
+    tmux
+  else
+    tmux new -s $1
   fi
 }
