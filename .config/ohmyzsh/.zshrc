@@ -32,8 +32,8 @@ function openNvim {
 
 function openTmux {
   if [ $# -eq 0 ]; then
-    tmux
+    tmux a
   else
-    tmux new -s $1
+    tmux a -t $1
   fi
 }
