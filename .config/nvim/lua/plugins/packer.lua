@@ -16,7 +16,7 @@ return require("packer").startup(function()
 	use("nvim-lua/plenary.nvim")
 
 	-- Colorscheme
-	use("gruvbox-community/gruvbox")
+	use({ "catppuccin/nvim", as = "catppuccin" })
 
 	-- File explorer
 	use({
@@ -74,6 +74,9 @@ return require("packer").startup(function()
 
 	-- Colorizer
 	use("norcalli/nvim-colorizer.lua")
+
+  -- Ident Line
+	use("lukas-reineke/indent-blankline.nvim")
 
 	if packer_bootstrap then
 		require("packer").sync()

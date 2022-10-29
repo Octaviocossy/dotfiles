@@ -21,7 +21,22 @@ telescope.setup({
 -- Keymap
 
 vim.keymap.set("n", "<Leader>d", function()
-	builtin.find_files({
-		hidden = true,
-	})
+	builtin.find_files()
 end)
+
+vim.keymap.set("n", "<Leader>gb", function()
+	builtin.git_branches()
+end)
+
+vim.keymap.set("n", "<Leader>gc", function()
+	builtin.git_commits()
+end)
+
+vim.keymap.set("n", "<Leader>gs", function()
+	builtin.git_status()
+end)
+
+vim.keymap.set("n", "<Leader>sw", function()
+	builtin.grep_string()
+end)
+
