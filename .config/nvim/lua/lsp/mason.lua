@@ -3,7 +3,7 @@ local servers = {
 	"sumneko_lua",
 	"tailwindcss",
 	"jsonls",
-	"cssls",
+	"cssls"
 }
 
 local settings = {

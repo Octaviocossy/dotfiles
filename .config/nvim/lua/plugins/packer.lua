@@ -16,7 +16,7 @@ return require("packer").startup(function()
 	use("nvim-lua/plenary.nvim")
 
 	-- Colorscheme
-	use({ "catppuccin/nvim", as = "catppuccin" })
+	use({ "Mofiqul/dracula.nvim", as = "dracula" })
 
 	-- File explorer
 	use({
@@ -75,8 +75,13 @@ return require("packer").startup(function()
 	-- Colorizer
 	use("norcalli/nvim-colorizer.lua")
 
-  -- Ident Line
-	use("lukas-reineke/indent-blankline.nvim")
+	-- Markdown Preview
+	use({
+		"iamcco/markdown-preview.nvim",
+		run = function()
+			vim.fn["mkdp#util#install"]()
+		end,
+	})
 
 	if packer_bootstrap then
 		require("packer").sync()
