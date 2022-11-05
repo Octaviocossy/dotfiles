@@ -51,32 +51,55 @@
   "copyOnSelect": false,
   "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
   "initialCols": 85,
-  "initialRows": 33,
+  "initialRows": 30,
   "profiles": {
     "defaults": {},
     "list": [
       {
         "antialiasingMode": "grayscale",
         "bellStyle": "none",
-        "colorScheme": "Dracula",
+        "colorScheme": "Blue Moves",
         "cursorShape": "filledBox",
         "font": {
-          "face": "MonoLisa Nerd Font",
-          "size": 10
+          "face": "Dank Mono",
+          "size": 12
         },
         "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
         "hidden": false,
         "name": "Ubuntu",
-        "opacity": 100,
+        "opacity": 75,
         "padding": "0",
         "scrollbarState": "hidden",
         "source": "Windows.Terminal.Wsl",
         "tabTitle": "Development",
-        "useAcrylic": false
+        "useAcrylic": true
       }
     ]
   },
   "schemes": [
+    {
+      "background": "#05162A",
+      "black": "#2A2A2A",
+      "blue": "#7096C2",
+      "brightBlack": "#05162A",
+      "brightBlue": "#7096C2",
+      "brightCyan": "#51ADBB",
+      "brightGreen": "#51BD99",
+      "brightPurple": "#C08FD4",
+      "brightRed": "#D38098",
+      "brightWhite": "#A5ABB3",
+      "brightYellow": "#ADB96E",
+      "cursorColor": "#A5ABB3",
+      "cyan": "#51ADBB",
+      "foreground": "#A5ABB3",
+      "green": "#51BD99",
+      "name": "Blue Moves",
+      "purple": "#C08FD4",
+      "red": "#D38098",
+      "selectionBackground": "#44475A",
+      "white": "#A5ABB3",
+      "yellow": "#ADB96E"
+    },
     {
       "background": "#282A36",
       "black": "#282A36",
@@ -99,29 +122,6 @@
       "selectionBackground": "#3E404A",
       "white": "#F1F1F0",
       "yellow": "#F3F99D"
-    },
-    {
-      "background": "#282A36",
-      "black": "#21222C",
-      "blue": "#BD93F9",
-      "brightBlack": "#6272A4",
-      "brightBlue": "#D6ACFF",
-      "brightCyan": "#A4FFFF",
-      "brightGreen": "#69FF94",
-      "brightPurple": "#FF92DF",
-      "brightRed": "#FF6E6E",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#FFFFA5",
-      "cursorColor": "#F8F8F2",
-      "cyan": "#8BE9FD",
-      "foreground": "#F8F8F2",
-      "green": "#50FA7B",
-      "name": "Dracula",
-      "purple": "#FF79C6",
-      "red": "#FF5555",
-      "selectionBackground": "#44475A",
-      "white": "#F8F8F2",
-      "yellow": "#F1FA8C"
     }
   ],
   "useAcrylicInTabRow": true,

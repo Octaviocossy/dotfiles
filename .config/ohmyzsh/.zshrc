@@ -10,16 +10,15 @@ source "$HOME/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 # plugins
 plugins=(git zsh-z)
 source $ZSH/oh-my-zsh.sh
-alias t=tmux
 
 # Alias
 alias lla=l
 alias v=openNvim
-alias t=openTmux
+alias c='code .'
 
 # Brew Config (Linux)
-# echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/USER/.profile
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Nvim config
 function openNvim {
@@ -27,13 +26,5 @@ function openNvim {
     nvim .
   else
     nvim $1
-  fi
-}
-
-function openTmux {
-  if [ $# -eq 0 ]; then
-    tmux 
-  else
-    tmux a -t $1
   fi
 }
