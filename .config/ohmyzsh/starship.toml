@@ -8,13 +8,13 @@ command_timeout = 1000
 
 # Change the default prompt format
 format = """\
-[╭╴](238)$env_var \
-$all[╰─](238)$character"""
+[╭╴](f1f1f0)$env_var \
+$all[╰─](f1f1f0)$character"""
 
 # Change the default prompt characters
 [character]
-success_symbol = "[](238)"
-error_symbol = "[](238)"
+success_symbol = "[](f1f1f0)"
+error_symbol = "[](f1f1f0)"
 
 # Shows an icon that should be included by zshrc script based on the distribution or os
 [env_var.STARSHIP_DISTRO]
