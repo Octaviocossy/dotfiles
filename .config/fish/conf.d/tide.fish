@@ -1,3 +1,4 @@
+# git
 set -g tide_git_bg_color 5af78e
 set -g tide_git_bg_color_unstable 9aedfe
 set -g tide_git_bg_color_urgent FF5C57
@@ -18,4 +19,9 @@ set -g tide_git_staged_color 000000
 set -g tide_git_stash_color 000000
 set -g tide_git_untracked_color 000000
 set -g tide_git_upstream_color 000000
+
+# pwd
 set -g tide_pwd_bg_color 444444
+
+# node
+set -g tide_node_bg_color 5af78e
