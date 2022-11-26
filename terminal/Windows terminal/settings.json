@@ -49,29 +49,27 @@
   ],
   "copyFormatting": "none",
   "copyOnSelect": false,
-  "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
   "initialCols": 90,
-  "initialRows": 30,
+  "initialRows": 36,
   "profiles": {
     "defaults": {},
     "list": [
       {
-        "antialiasingMode": "grayscale",
         "bellStyle": "none",
-        "colorScheme": "Blue Moves",
+        "colorScheme": "Snazzy (Modded)",
         "cursorShape": "filledBox",
         "font": {
-          "face": "Dank Mono",
-          "size": 11
+          "face": "MonoLisa Nerd Font",
+          "size": 12
         },
-        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
         "hidden": false,
-        "name": "Ubuntu",
-        "opacity": 75,
+        "name": "Ubuntu-20.04",
+        "opacity": 70,
         "padding": "0",
         "scrollbarState": "hidden",
         "source": "Windows.Terminal.Wsl",
-        "tabTitle": "Development",
         "useAcrylic": true
       }
     ]
