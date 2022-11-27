@@ -14,6 +14,7 @@ alias ls "ls -p -G"
 alias ll "exa -l -g --icons"
 alias lla "ll -a"
 alias c "code ."
+alias tree "exa --tree --level=3 --long"
 
 set LOCAL_CONFIG (dirname (status --current-filename))/config-local.fish
 if test -f $LOCAL_CONFIG
