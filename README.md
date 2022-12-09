@@ -29,6 +29,13 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 
 **_Build Essential:_** `sudo apt install build-essential`
 
+## PowerShell Setup
+
+- [Scoop](https://scoop.sh/) - A command-line installer<br>
+- [Oh-My-Posh](https://ohmyposh.dev/) - Prompt theme engine<br>
+- [Posh-Git](https://github.com/dahlbyk/posh-git) - A PowerShell environment for Git<br>
+- [z for PorwerShell](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
+
 ## Fish Setup
 
 - [Fish shell](https://fishshell.com/) - fish is a smart and user-friendly command line shell<br>

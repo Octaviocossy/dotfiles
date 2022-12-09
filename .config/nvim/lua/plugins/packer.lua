@@ -16,7 +16,7 @@ return require("packer").startup(function()
 	use("nvim-lua/plenary.nvim")
 
 	-- Colorscheme
-	use({ "Mofiqul/dracula.nvim", as = "dracula" })
+	use({ "bluz71/vim-nightfly-guicolors" })
 
 	-- File explorer
 	use({

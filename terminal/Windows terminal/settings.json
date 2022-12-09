@@ -57,16 +57,16 @@
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "Snazzy (Modded)",
+        "colorScheme": "Coolnight",
         "cursorShape": "filledBox",
         "font": {
           "face": "MonoLisa Nerd Font",
-          "size": 12
+          "size": 11
         },
         "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
         "hidden": false,
         "name": "Ubuntu-20.04",
-        "opacity": 70,
+        "opacity": 80,
         "padding": "0",
         "scrollbarState": "hidden",
         "source": "Windows.Terminal.Wsl",
@@ -120,6 +120,29 @@
       "selectionBackground": "#3E404A",
       "white": "#F1F1F0",
       "yellow": "#F3F99D"
+    },
+    {
+      "background": "#010C18",
+      "black": "#0B3B61",
+      "blue": "#1376F9",
+      "brightBlack": "#63686D",
+      "brightBlue": "#388EFF",
+      "brightCyan": "#FF6AD7",
+      "brightGreen": "#74FFD8",
+      "brightPurple": "#FF5ED4",
+      "brightRed": "#FF54B0",
+      "brightWhite": "#60FBBF",
+      "brightYellow": "#FCF5AE",
+      "cursorColor": "#38FF9D",
+      "cyan": "#FF5ED4",
+      "foreground": "#ECDEF4",
+      "green": "#52FFD0",
+      "name": "Coolnight",
+      "purple": "#FF5ED4",
+      "red": "#FF3A3A",
+      "selectionBackground": "#38FF9C",
+      "white": "#16FDA2",
+      "yellow": "#FFF383"
     }
   ],
   "useAcrylicInTabRow": true,
