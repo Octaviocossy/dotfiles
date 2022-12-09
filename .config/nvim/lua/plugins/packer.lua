@@ -3,87 +3,90 @@ local fn = vim.fn
 local install_path = fn.stdpath("data") .. "/site/pack/packer/start/packer.nvim"
 
 if fn.empty(fn.glob(install_path)) > 0 then
-	packer_bootstrap =
-		fn.system({ "git", "clone", "--depth", "1", "https://github.com/wbthomason/packer.nvim", install_path })
-	vim.cmd([[packadd packer.nvim]])
+  packer_bootstrap =
+  fn.system({ "git", "clone", "--depth", "1", "https://github.com/wbthomason/packer.nvim", install_path })
+  vim.cmd([[packadd packer.nvim]])
 end
 
 return require("packer").startup(function()
-	-- Packer can manage itself
-	use("wbthomason/packer.nvim")
+  -- Packer can manage itself
+  use("wbthomason/packer.nvim")
 
-	-- Common utilities
-	use("nvim-lua/plenary.nvim")
+  -- Common utilities
+  use("nvim-lua/plenary.nvim")
 
-	-- Colorscheme
-	use({ "bluz71/vim-nightfly-guicolors" })
+  -- Colorscheme
+  use("bluz71/vim-nightfly-guicolors")
 
-	-- File explorer
-	use({
-		"kyazdani42/nvim-web-devicons",
-		"kyazdani42/nvim-tree.lua",
-	})
+  -- File explorer
+  use({
+    "kyazdani42/nvim-web-devicons",
+    "kyazdani42/nvim-tree.lua",
+  })
 
-	-- Tmux nav
-	use("alexghergh/nvim-tmux-navigation")
+  -- Tmux nav
+  use("alexghergh/nvim-tmux-navigation")
 
-	-- Statusline
-	use("nvim-lualine/lualine.nvim")
+  -- Statusline
+  use("nvim-lualine/lualine.nvim")
 
-	-- Fuzzy file finder
-	use("nvim-telescope/telescope.nvim")
+  -- Fuzzy file finder
+  use("nvim-telescope/telescope.nvim")
 
-	-- Completion Plugins
-	use({
-		"hrsh7th/nvim-cmp",
-		"hrsh7th/cmp-buffer",
-		"hrsh7th/cmp-path",
-		"hrsh7th/cmp-cmdline",
-		"hrsh7th/cmp-nvim-lsp",
-		"saadparwaiz1/cmp_luasnip",
-	})
+  -- Completion Plugins
+  use({
+    "hrsh7th/nvim-cmp",
+    "hrsh7th/cmp-buffer",
+    "hrsh7th/cmp-path",
+    "hrsh7th/cmp-cmdline",
+    "hrsh7th/cmp-nvim-lsp",
+    "saadparwaiz1/cmp_luasnip",
+  })
 
-	-- Snippets
-	use({
-		"L3MON4D3/LuaSnip",
-		"rafamadriz/friendly-snippets",
-	})
+  -- vscode-like pictograms
+  use('onsails/lspkind-nvim')
 
-	-- LSP
-	use({
-		"williamboman/mason.nvim",
-		"williamboman/mason-lspconfig.nvim",
-		"neovim/nvim-lspconfig",
-		"jose-elias-alvarez/null-ls.nvim",
-	})
+  -- Snippets
+  use({
+    "L3MON4D3/LuaSnip",
+    "rafamadriz/friendly-snippets",
+  })
 
-	-- Treesitter
-	use("nvim-treesitter/nvim-treesitter")
+  -- LSP
+  use({
+    "williamboman/mason.nvim",
+    "williamboman/mason-lspconfig.nvim",
+    "neovim/nvim-lspconfig",
+    "jose-elias-alvarez/null-ls.nvim",
+  })
 
-	-- Close tags and more
-	use({
-		"windwp/nvim-autopairs",
-		"windwp/nvim-ts-autotag",
-	})
+  -- Treesitter
+  use("nvim-treesitter/nvim-treesitter")
 
-	-- Comments
-	use("numToStr/Comment.nvim")
+  -- Close tags and more
+  use({
+    "windwp/nvim-autopairs",
+    "windwp/nvim-ts-autotag",
+  })
 
-	-- Git
-	use("lewis6991/gitsigns.nvim")
+  -- Comments
+  use("numToStr/Comment.nvim")
 
-	-- Colorizer
-	use("norcalli/nvim-colorizer.lua")
+  -- Git
+  use("lewis6991/gitsigns.nvim")
 
-	-- Markdown Preview
-	use({
-		"iamcco/markdown-preview.nvim",
-		run = function()
-			vim.fn["mkdp#util#install"]()
-		end,
-	})
+  -- Colorizer
+  use("norcalli/nvim-colorizer.lua")
 
-	if packer_bootstrap then
-		require("packer").sync()
-	end
+  -- Markdown Preview
+  use({
+    "iamcco/markdown-preview.nvim",
+    run = function()
+      vim.fn["mkdp#util#install"]()
+    end,
+  })
+
+  if packer_bootstrap then
+    require("packer").sync()
+  end
 end)
