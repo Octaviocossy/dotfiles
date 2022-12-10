@@ -43,9 +43,6 @@ return require("packer").startup(function()
     "saadparwaiz1/cmp_luasnip",
   })
 
-  -- vscode-like pictograms
-  use('onsails/lspkind-nvim')
-
   -- Snippets
   use({
     "L3MON4D3/LuaSnip",
@@ -58,6 +55,8 @@ return require("packer").startup(function()
     "williamboman/mason-lspconfig.nvim",
     "neovim/nvim-lspconfig",
     "jose-elias-alvarez/null-ls.nvim",
+    "onsails/lspkind-nvim",
+    "glepnir/lspsaga.nvim"
   })
 
   -- Treesitter

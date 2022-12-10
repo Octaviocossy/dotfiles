@@ -4,11 +4,11 @@ local M = {}
 M.setup = function()
   vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
     vim.lsp.diagnostic.on_publish_diagnostics, {
-      underline = true,
-      update_in_insert = false,
-      virtual_text = { spacing = 4, prefix = "●" },
-      severity_sort = true,
-    }
+    underline = true,
+    update_in_insert = false,
+    virtual_text = { spacing = 4, prefix = "●" },
+    severity_sort = true,
+  }
   )
 
   -- Diagnostic symbols in the sign column (gutter)
@@ -17,7 +17,6 @@ M.setup = function()
     local hl = "DiagnosticSign" .. type
     vim.fn.sign_define(hl, { text = icon, texthl = hl, numhl = "" })
   end
-
 
   local config = {
     -- disable virtual text
@@ -58,27 +57,22 @@ local function lsp_highlight_document(client)
   end
 end
 
-local function lsp_keymaps(bufnr)
-  local opts = { noremap = true, silent = true }
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gD", "<cmd>lua vim.lsp.buf.declaration()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gd", "<cmd>lua vim.lsp.buf.definition()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "K", "<cmd>lua vim.lsp.buf.hover()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gi", "<cmd>lua vim.lsp.buf.implementation()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", ";h", "<cmd>lua vim.lsp.buf.signature_help()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "gr", "<cmd>lua vim.lsp.buf.references()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "<leader>k", "<cmd>lua vim.diagnostic.open_float()<CR>", opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "[d", '<cmd>lua vim.diagnostic.goto_prev({ border = "rounded" })<CR>', opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "]d", '<cmd>lua vim.diagnostic.goto_next({ border = "rounded" })<CR>', opts)
-  vim.api.nvim_buf_set_keymap(bufnr, "n", "qs", "<cmd>lua vim.diagnostic.setloclist()<CR>", opts)
-end
+local status, saga = pcall(require, "lspsaga")
+if (not status) then return end
 
-M.on_attach = function(client, bufnr)
-  if client.name == "tsserver" then
-    client.server_capabilities.documentFormattingProvider = false
-  end
-  lsp_keymaps(bufnr)
-  lsp_highlight_document(client)
-end
+saga.init_lsp_saga {
+  server_filetype_map = {
+    typescript = 'typescript'
+  }
+}
+
+local opts = { noremap = true, silent = true }
+vim.keymap.set('n', 'sd', '<Cmd>Lspsaga diagnostic_jump_next<CR>', opts)
+vim.keymap.set('n', 'sh', '<Cmd>Lspsaga hover_doc<CR>', opts)
+vim.keymap.set('n', 'sf', '<Cmd>Lspsaga lsp_finder<CR>', opts)
+vim.keymap.set('n', 'pd', '<Cmd>Lspsaga preview_definition<CR>', opts)
+vim.keymap.set('n', 'sr', '<Cmd>Lspsaga rename<CR>', opts)
+vim.keymap.set('n', 'so', '<Cmd>LSoutlineToggle<CR>', opts)
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
@@ -91,4 +85,3 @@ end
 M.capabilities = cmp_nvim_lsp.default_capabilities(capabilities)
 
 return M
-
