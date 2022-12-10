@@ -47,57 +47,37 @@
       "keys": "alt+shift+d"
     }
   ],
+  "alwaysOnTop": false,
+  "alwaysShowTabs": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
-  "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+  "defaultProfile": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
   "initialCols": 90,
-  "initialRows": 36,
+  "initialRows": 35,
   "profiles": {
     "defaults": {},
     "list": [
       {
-        "bellStyle": "none",
         "colorScheme": "Coolnight",
+        "commandline": "\"C:\\Users\\octav\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -NoLogo",
         "cursorShape": "filledBox",
         "font": {
           "face": "MonoLisa Nerd Font",
           "size": 11
         },
-        "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+        "guid": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
         "hidden": false,
-        "name": "Ubuntu-20.04",
-        "opacity": 80,
+        "icon": "ms-appx:///ProfileIcons/pwsh.png",
+        "name": "Dev",
+        "opacity": 70,
         "padding": "0",
         "scrollbarState": "hidden",
-        "source": "Windows.Terminal.Wsl",
+        "startingDirectory": "%USERPROFILE%",
         "useAcrylic": true
       }
     ]
   },
   "schemes": [
-    {
-      "background": "#05162A",
-      "black": "#6e6e6e",
-      "blue": "#7096C2",
-      "brightBlack": "#d3d3d4",
-      "brightBlue": "#7096C2",
-      "brightCyan": "#51ADBB",
-      "brightGreen": "#51BD99",
-      "brightPurple": "#C08FD4",
-      "brightRed": "#D38098",
-      "brightWhite": "#d3d3d4",
-      "brightYellow": "#ADB96E",
-      "cursorColor": "#d3d3d4",
-      "cyan": "#51ADBB",
-      "foreground": "#d3d3d4",
-      "green": "#51BD99",
-      "name": "Blue Moves",
-      "purple": "#C08FD4",
-      "red": "#D38098",
-      "selectionBackground": "#44475A",
-      "white": "#d3d3d4",
-      "yellow": "#ADB96E"
-    },
     {
       "background": "#282A36",
       "black": "#282A36",
@@ -145,7 +125,9 @@
       "yellow": "#FFF383"
     }
   ],
+  "showTerminalTitleInTitlebar": true,
+  "showTabsInTitlebar": true,
   "useAcrylicInTabRow": true,
-  "startOnUserLogin": true,
-  "theme": "dark"
+  "tabWidthMode": "equal",
+  "theme": "system"
 }
