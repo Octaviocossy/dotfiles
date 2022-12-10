@@ -73,6 +73,8 @@ vim.keymap.set('n', 'sf', '<Cmd>Lspsaga lsp_finder<CR>', opts)
 vim.keymap.set('n', 'pd', '<Cmd>Lspsaga preview_definition<CR>', opts)
 vim.keymap.set('n', 'sr', '<Cmd>Lspsaga rename<CR>', opts)
 vim.keymap.set('n', 'so', '<Cmd>LSoutlineToggle<CR>', opts)
+vim.keymap.set('n', 'd[', '<Cmd>Lspsaga diagnostic_jump_prev<CR>', opts)
+vim.keymap.set('n', 'd]', '<Cmd>Lspsaga diagnostic_jump_next<CR>', opts)
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 
