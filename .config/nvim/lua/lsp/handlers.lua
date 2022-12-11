@@ -68,7 +68,7 @@ saga.init_lsp_saga {
 
 local opts = { noremap = true, silent = true }
 vim.keymap.set('n', 'sd', '<Cmd>Lspsaga diagnostic_jump_next<CR>', opts)
-vim.keymap.set('n', 'sh', '<Cmd>Lspsaga hover_doc<CR>', opts)
+vim.keymap.set('n', 'H', '<Cmd>Lspsaga hover_doc<CR>', opts)
 vim.keymap.set('n', 'sf', '<Cmd>Lspsaga lsp_finder<CR>', opts)
 vim.keymap.set('n', 'pd', '<Cmd>Lspsaga preview_definition<CR>', opts)
 vim.keymap.set('n', 'sr', '<Cmd>Lspsaga rename<CR>', opts)
