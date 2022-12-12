@@ -52,28 +52,28 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
-  "initialCols": 90,
-  "initialRows": 35,
+  "initialCols": 95,
+  "initialRows": 30,
   "profiles": {
     "defaults": {},
     "list": [
       {
-        "colorScheme": "Coolnight",
+        "colorScheme": "Snazzy (Modded)",
         "commandline": "\"C:\\Users\\octav\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -NoLogo",
         "cursorShape": "filledBox",
         "font": {
-          "face": "MonoLisa Nerd Font",
-          "size": 11
+          "face": "JetBrainsMono NFM",
+          "size": 10
         },
         "guid": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
         "hidden": false,
         "icon": "ms-appx:///ProfileIcons/pwsh.png",
         "name": "Dev",
-        "opacity": 70,
+        "opacity": 100,
         "padding": "0",
         "scrollbarState": "hidden",
         "startingDirectory": "%USERPROFILE%",
-        "useAcrylic": true
+        "useAcrylic": false
       }
     ]
   },
