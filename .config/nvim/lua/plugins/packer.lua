@@ -16,7 +16,7 @@ return require("packer").startup(function()
   use("nvim-lua/plenary.nvim")
 
   -- Colorscheme
-  use("bluz71/vim-nightfly-guicolors")
+  use("ellisonleao/gruvbox.nvim")
 
   -- File explorer
   use({
