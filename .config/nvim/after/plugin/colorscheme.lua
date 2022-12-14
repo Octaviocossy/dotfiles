@@ -1,4 +1,4 @@
-local colorscheme = "gruvbox"
+local colorscheme = "tokyonight"
 
 local theme_status, theme = pcall(require, colorscheme)
 if not theme_status then
