@@ -53,17 +53,17 @@
   "copyOnSelect": false,
   "defaultProfile": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
   "initialCols": 95,
-  "initialRows": 30,
+  "initialRows": 25,
   "profiles": {
     "defaults": {},
     "list": [
       {
-        "colorScheme": "Snazzy (Modded)",
+        "colorScheme": "Tokyo Night Moon",
         "commandline": "\"C:\\Users\\octav\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -NoLogo",
         "cursorShape": "filledBox",
         "font": {
-          "face": "JetBrainsMono NFM",
-          "size": 10
+          "face": "ComicCodeLigatures Nerd Font",
+          "size": 11
         },
         "guid": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
         "hidden": false,
@@ -123,6 +123,29 @@
       "selectionBackground": "#38FF9C",
       "white": "#16FDA2",
       "yellow": "#FFF383"
+    },
+    {
+      "background": "#1E2030",
+      "black": "#414868",
+      "blue": "#5CA4E0",
+      "brightBlack": "#414868",
+      "brightBlue": "#7AA2F7",
+      "brightCyan": "#7DCFFF",
+      "brightGreen": "#73DACA",
+      "brightPurple": "#BB9AF7",
+      "brightRed": "#F7768E",
+      "brightWhite": "#C0CAF5",
+      "brightYellow": "#E0AF68",
+      "cursorColor": "#C0CAF5",
+      "cyan": "#7DCFFF",
+      "foreground": "#C7C9CD",
+      "green": "#73DACA",
+      "name": "Tokyo Night Moon",
+      "purple": "#BB9AF7",
+      "red": "#F7768E",
+      "selectionBackground": "#28344A",
+      "white": "#C0CAF5",
+      "yellow": "#E0AF68"
     }
   ],
   "showTerminalTitleInTitlebar": true,
