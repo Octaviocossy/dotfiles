@@ -5,7 +5,8 @@ These dotfiles are likely to change over time. All the config what found in this
 ## Contents
 
 - Neovim config.
-- Fish Shell config.
+- Zsh config.
+- PowerShell config.
 - Tmux config.
 
 ## Neovim Setup
@@ -36,12 +37,10 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Posh-Git](https://github.com/dahlbyk/posh-git) - A PowerShell environment for Git<br>
 - [z for PowerShell](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
 
-## Fish Setup
+## ZSH Setup
 
-- [Fish shell](https://fishshell.com/) - fish is a smart and user-friendly command line shell<br>
-- [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager<br>
+- [Zsh shell](https://www.zsh.org/) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.<br>
+- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - An open source, community-driven framework for managing your zsh configuration.<br>
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
-- [Tide](https://github.com/IlanCosman/tide) - Shell theme<br>
+- [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
-- [z for fish](https://github.com/jethrokuan/z) - Directory jumper<br>
-- [Exa](https://the.exa.website/) - ls replacement<br>
