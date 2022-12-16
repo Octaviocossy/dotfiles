@@ -5,9 +5,14 @@
       "alignment": "left",
       "segments": [
         {
+          "style": "plain",
+          "template": "⚡ ",
+          "type": "text"
+        },
+        {
           "foreground": "#98C379",
           "style": "plain",
-          "template": "\u279c",
+          "template": "\u279c ",
           "type": "text"
         },
         {
@@ -31,7 +36,7 @@
         {
           "foreground": "#BF616A",
           "style": "plain",
-          "template": " \u2717",
+          "template": "\u2717",
           "type": "exit"
         }
       ],

@@ -53,7 +53,7 @@
   "copyOnSelect": false,
   "defaultProfile": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
   "initialCols": 95,
-  "initialRows": 25,
+  "initialRows": 30,
   "profiles": {
     "defaults": {},
     "list": [
@@ -62,8 +62,8 @@
         "commandline": "\"C:\\Users\\octav\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -NoLogo",
         "cursorShape": "filledBox",
         "font": {
-          "face": "ComicCodeLigatures Nerd Font",
-          "size": 11
+          "face": "Comic Code",
+          "size": 10
         },
         "guid": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
         "hidden": false,
@@ -127,7 +127,7 @@
     {
       "background": "#1E2030",
       "black": "#414868",
-      "blue": "#5CA4E0",
+      "blue": "#434f88",
       "brightBlack": "#414868",
       "brightBlue": "#7AA2F7",
       "brightCyan": "#7DCFFF",
