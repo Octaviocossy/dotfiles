@@ -3,10 +3,9 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-source $ZSH/oh-my-zsh.sh
 
 # Alias
-alias lla=l
+alias lla="ls -la"
 alias v=openNvim
 
 function openNvim {
@@ -24,7 +23,10 @@ plug "hlissner/zsh-autopair"
 plug "zap-zsh/completions"
 plug "zap-zsh/zap-prompt"
 plug "agkozak/zsh-z"
+plug "agkozak/zsh-z"
+plug "zap-zsh/supercharge"
+plug "zap-zsh/exa"
 
 # Brew Config (Linux)
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"fpath+=${ZDOTDIR:-~}/.zsh_functions

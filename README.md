@@ -4,10 +4,11 @@ These dotfiles are likely to change over time. All the config what found in this
 
 ## Contents
 
-- Neovim config.
 - Zsh config.
-- PowerShell config.
 - Tmux config.
+- Neovim config.
+- Alacritty config.
+- PowerShell config.
 
 ## Neovim Setup
 
@@ -44,3 +45,8 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
+
+## Tmux Setup
+
+- [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) - Installs and loads tmux plugins.<br>
+
