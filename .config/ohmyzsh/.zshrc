@@ -5,8 +5,11 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Alias
-alias lla="ls -la"
 alias v=openNvim
+alias lla="ls -la"
+alias t="tmux"
+alias tl="tmux list-sessions"
+alias tk="tmux kill-session"
 
 function openNvim {
   if [ $# -eq 0 ]; then
@@ -29,4 +32,4 @@ plug "zap-zsh/exa"
 
 # Brew Config (Linux)
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"fpath+=${ZDOTDIR:-~}/.zsh_functions
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
