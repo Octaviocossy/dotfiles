@@ -26,7 +26,6 @@ plug "hlissner/zsh-autopair"
 plug "zap-zsh/completions"
 plug "zap-zsh/zap-prompt"
 plug "agkozak/zsh-z"
-plug "agkozak/zsh-z"
 plug "zap-zsh/supercharge"
 plug "zap-zsh/exa"
 
