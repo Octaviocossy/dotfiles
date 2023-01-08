@@ -16,7 +16,7 @@ return require("packer").startup(function()
   use("nvim-lua/plenary.nvim")
 
   -- Colorscheme
-  use('Mofiqul/vscode.nvim')
+  use("folke/tokyonight.nvim")
 
   -- File explorer
   use({
