@@ -52,7 +52,7 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
-  "initialCols": 95,
+  "initialCols": 90,
   "initialRows": 30,
   "profiles": {
     "defaults": {},
@@ -62,8 +62,8 @@
         "commandline": "\"C:\\Users\\octav\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -NoLogo",
         "cursorShape": "filledBox",
         "font": {
-          "face": "Comic Code",
-          "size": 10
+          "face": "MonoLisa",
+          "size": 9
         },
         "guid": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
         "hidden": false,
@@ -100,29 +100,6 @@
       "selectionBackground": "#3E404A",
       "white": "#F1F1F0",
       "yellow": "#F3F99D"
-    },
-    {
-      "background": "#010C18",
-      "black": "#0B3B61",
-      "blue": "#1376F9",
-      "brightBlack": "#63686D",
-      "brightBlue": "#388EFF",
-      "brightCyan": "#FF6AD7",
-      "brightGreen": "#74FFD8",
-      "brightPurple": "#FF5ED4",
-      "brightRed": "#FF54B0",
-      "brightWhite": "#60FBBF",
-      "brightYellow": "#FCF5AE",
-      "cursorColor": "#38FF9D",
-      "cyan": "#FF5ED4",
-      "foreground": "#ECDEF4",
-      "green": "#52FFD0",
-      "name": "Coolnight",
-      "purple": "#FF5ED4",
-      "red": "#FF3A3A",
-      "selectionBackground": "#38FF9C",
-      "white": "#16FDA2",
-      "yellow": "#FFF383"
     },
     {
       "background": "#1E2030",
