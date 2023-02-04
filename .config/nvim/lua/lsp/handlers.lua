@@ -58,13 +58,14 @@ local function lsp_highlight_document(client)
 end
 
 local status, saga = pcall(require, "lspsaga")
+
 if (not status) then return end
 
-saga.init_lsp_saga {
+saga.setup({
   server_filetype_map = {
     typescript = 'typescript'
   }
-}
+}) 
 
 local opts = { noremap = true, silent = true }
 vim.keymap.set('n', 'sd', '<Cmd>Lspsaga diagnostic_jump_next<CR>', opts)
