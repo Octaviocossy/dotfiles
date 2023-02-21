@@ -1,6 +1,6 @@
 local servers = {
 	"tsserver",
-	"sumneko_lua",
+	"lua_ls",
 	"tailwindcss",
 	"jsonls",
 	"cssls"
