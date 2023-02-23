@@ -5,7 +5,7 @@ if not status_ok then
 end
 
 treesitter.setup({
-	ensure_installed = { "javascript", "typescript", "tsx", "html", "css", "scss", "json", "lua", "markdown", "vim" },
+	ensure_installed = { "javascript", "typescript", "tsx", "html", "css", "scss", "json", "lua", "markdown", "markdown_inline", "vim", "prisma" },
 	sync_install = false,
 	ignore_install = { "" }, -- List of parsers to ignore installing
 	autopairs = {
