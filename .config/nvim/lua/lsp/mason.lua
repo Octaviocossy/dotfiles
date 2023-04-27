@@ -1,7 +1,7 @@
 local servers = {
 	"tsserver",
 	"lua_ls",
-	"tailwindcss",
+	"tailwindcss", -- Generates "Error executing vim.schedule lua callback",
 	"jsonls",
 	"cssls"
 }
