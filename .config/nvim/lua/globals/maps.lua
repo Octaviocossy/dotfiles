@@ -16,9 +16,3 @@ keymap.set("n", "tp", ":tabprevious<Return>")
 
 keymap.set("n", "sh", ":split<Return><C-w>w")
 keymap.set("n", "sv", ":vsplit<Return><C-w>w")
-
--- Open Terminal
-
-keymap.set('n', '<leader>tv', ':botright vnew <Bar> :terminal pwsh.exe -NoLogo<cr>')
-keymap.set('n', '<leader>th', ':botright new <Bar> :terminal pwsh.exe -NoLogo<cr>')
-keymap.set('t', '<Esc>', '<C-\\><C-n>')

@@ -11,19 +11,18 @@ source $ZSH/oh-my-zsh.sh
 
 # Alias
 alias lla="ls -la"
+alias v=openNvim
+alias t="tmux"
+alias tl="tmux list-sessions"
+alias tk="tmux kill-session"
 
-# alias v=openNvim
-# alias t="tmux"
-# alias tl="tmux list-sessions"
-# alias tk="tmux kill-session"
-
-# function openNvim {
-#   if [ $# -eq 0 ]; then
-#     nvim .
-#   else
-#     nvim $1
-#   fi
-# }
+function openNvim {
+  if [ $# -eq 0 ]; then
+    nvim .
+  else
+    nvim $1
+  fi
+}
 
 # Plugins
 # plug "zsh-users/zsh-syntax-highlighting"

@@ -16,7 +16,7 @@ return require("packer").startup(function()
 	use("nvim-lua/plenary.nvim")
 
 	-- Colorscheme
-	use("ellisonleao/gruvbox.nvim")
+	use({ "rose-pine/neovim", name = "rose-pine" })
 
 	-- File explorer
 	use({
