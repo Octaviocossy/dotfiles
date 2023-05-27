@@ -51,9 +51,9 @@
   "alwaysShowTabs": false,
   "copyFormatting": "none",
   "copyOnSelect": false,
-  "defaultProfile": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
-  "initialCols": 90,
-  "initialRows": 30,
+  "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
+  "initialCols": 105,
+  "initialRows": 32,
   "profiles": {
     "defaults": {},
     "list": [
@@ -66,14 +66,15 @@
           "size": 10.0
         },
         "guid": "{64f32c0a-d1e8-40a3-bed5-ab493edce94f}",
-        "hidden": false,
-        "icon": "ms-appx:///ProfileIcons/pwsh.png",
-        "name": "Dev",
-        "opacity": 100,
-        "padding": "0",
-        "scrollbarState": "hidden",
         "startingDirectory": "%USERPROFILE%",
-        "useAcrylic": false
+        "icon": "ms-appx:///ProfileIcons/pwsh.png",
+        "hidden": false,
+        "name": "Dev (PowerShell)",
+        "opacity": 100,
+        "padding": "4",
+        "scrollbarState": "hidden",
+        "useAcrylic": false,
+        "useAtlasEngine": true
       },
       {
         "bellStyle": "none",
@@ -83,11 +84,14 @@
           "size": 10.0
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
+        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
         "hidden": false,
-        "name": "Ubuntu 22.04.2 LTS",
+        "name": "Dev",
+        "opacity": 100,
         "padding": "4",
         "scrollbarState": "hidden",
-        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc"
+        "useAcrylic": false,
+        "useAtlasEngine": true
       }
     ]
   },
