@@ -85,6 +85,9 @@ return require("packer").startup(function()
 		end,
 	})
 
+	-- Bufferline
+	use({ "akinsho/bufferline.nvim", tag = "*" })
+
 	if packer_bootstrap then
 		require("packer").sync()
 	end
