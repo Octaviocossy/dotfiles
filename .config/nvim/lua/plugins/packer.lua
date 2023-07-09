@@ -13,15 +13,19 @@ return require("packer").startup(function()
 	use("wbthomason/packer.nvim")
 
 	-- Common utilities
-	use("nvim-lua/plenary.nvim")
+	use({ "nvim-lua/plenary.nvim", "MunifTanjim/nui.nvim" })
 
 	-- Colorscheme
-	use({ "rose-pine/neovim", name = "rose-pine" })
+	use({ "catppuccin/nvim", as = "catppuccin" })
 
 	-- File explorer
 	use({
-		"kyazdani42/nvim-web-devicons",
-		"kyazdani42/nvim-tree.lua",
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v2.x",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-web-devicons",
+		},
 	})
 
 	-- Tmux nav
@@ -77,16 +81,17 @@ return require("packer").startup(function()
 	-- Colorizer
 	use("norcalli/nvim-colorizer.lua")
 
-	-- Markdown Preview
-	use({
-		"iamcco/markdown-preview.nvim",
-		run = function()
-			vim.fn["mkdp#util#install"]()
-		end,
-	})
-
 	-- Bufferline
 	use({ "akinsho/bufferline.nvim", tag = "*" })
+
+	-- Ident line
+	use("lukas-reineke/indent-blankline.nvim")
+
+	-- better ui
+	use("folke/noice.nvim")
+
+  -- better notifications
+  use("rcarriga/nvim-notify")
 
 	if packer_bootstrap then
 		require("packer").sync()

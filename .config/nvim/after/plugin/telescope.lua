@@ -16,12 +16,21 @@ telescope.setup({
 			},
 		},
 	},
+	pickers = {
+		find_files = {
+			prompt_prefix = "🔍",
+			theme = "dropdown",
+		},
+	},
 })
 
 -- Keymap
-
 vim.keymap.set("n", "<Leader>d", function()
 	builtin.find_files()
+end)
+
+vim.keymap.set("n", "<Leader>s", function()
+	builtin.live_grep()
 end)
 
 vim.keymap.set("n", "<Leader>gb", function()
@@ -39,4 +48,3 @@ end)
 vim.keymap.set("n", "<Leader>sw", function()
 	builtin.grep_string()
 end)
-
