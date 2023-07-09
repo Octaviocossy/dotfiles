@@ -1,0 +1,85 @@
+{
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": [":w"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": [":q"]
+    },
+    {
+      "before": ["<leader>", "h"],
+      "commands": [":sp"]
+    },
+    {
+      "before": ["<leader>", "v"],
+      "commands": [":vsp"]
+    },
+    {
+      "before": ["<C-j>"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["<C-k>"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["<C-l>"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["<C-h>"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["eslint.executeAutofix"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.files.action.focusFilesExplorer"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["workbench.scm.focus"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  }
+}
