@@ -1,5 +1,5 @@
 {
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -7,15 +7,16 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.fontFamily": "FiraCode Nerd Font Mono",
   "git.openRepositoryInParentFolders": "always",
-  "editor.semanticHighlighting.enabled": true,
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "Default Dark+",
   "workbench.activityBar.visible": false,
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "poimandres",
-  "window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "compact",
   "editor.inlineSuggest.enabled": true,
   "terminal.integrated.fontSize": 12,
   "git.enableSmartCommit": true,
   "editor.fontLigatures": false,
+  "breadcrumbs.enabled": false,
   "editor.lineHeight": 1.7,
-  "editor.fontSize": 13
+  "editor.fontSize": 12
 }
