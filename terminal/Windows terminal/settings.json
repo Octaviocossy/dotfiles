@@ -53,7 +53,7 @@
   "copyOnSelect": false,
   "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
   "initialCols": 105,
-  "initialRows": 35,
+  "initialRows": 30,
   "profiles": {
     "defaults": {},
     "list": [
@@ -61,14 +61,14 @@
         "bellStyle": "none",
         "colorScheme": "Snazzy (Modded)",
         "font": {
-          "face": "FiraCode Nerd Font Mono",
+          "face": "JetBrainsMono NFM",
           "size": 10.0
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
         "hidden": false,
         "name": "Dev",
         "opacity": 100,
-        "padding": "0",
+        "padding": "4",
         "scrollbarState": "hidden",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
         "useAcrylic": false,

@@ -5,24 +5,26 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Theme
-ZSH_THEME="robbyrussell"
+source /home/linuxbrew/.linuxbrew/opt/spaceship/spaceship.zsh
 
-source $ZSH/oh-my-zsh.sh
+SPACESHIP_ASYNC_SHOW=false
+SPACESHIP_PROMPT_ADD_NEWLINE=false
+SPACESHIP_GIT_ASYNC=false
 
 # Alias
 alias lla="ls -la"
-alias v=openNvim
+# alias v=openNvim
+# function openNvim {
+#   if [ $# -eq 0 ]; then
+#     nvim .
+#   else
+#     nvim $1
+#   fi
+# }
+
 alias t="tmux"
 alias tl="tmux list-sessions"
 alias tk="tmux kill-session"
-
-function openNvim {
-  if [ $# -eq 0 ]; then
-    nvim .
-  else
-    nvim $1
-  fi
-}
 
 # Plugins
 # plug "zsh-users/zsh-syntax-highlighting"
