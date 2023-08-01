@@ -6,4 +6,3 @@ require("globals/options")
 require("globals/maps")
 require("plugins/packer")
 require("lsp")
-

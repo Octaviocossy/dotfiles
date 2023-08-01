@@ -18,7 +18,7 @@ telescope.setup({
 	},
 	pickers = {
 		find_files = {
-			prompt_prefix = "🔍",
+			prompt_prefix = "🔍 ",
 			theme = "dropdown",
 		},
 	},
