@@ -6,6 +6,7 @@ end
 
 treesitter.setup({
 	ensure_installed = { "javascript", "typescript", "tsx", "html", "css", "scss", "json", "lua", "markdown", "markdown_inline", "vim", "prisma" },
+  prefer_git = true,
 	sync_install = false,
 	ignore_install = { "" }, -- List of parsers to ignore installing
 	autopairs = {

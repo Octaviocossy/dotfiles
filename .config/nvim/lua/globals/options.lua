@@ -1,6 +1,5 @@
 local options = {
 	backup = false,
-	clipboard = "unnamedplus",
 	cmdheight = 2,
 	completeopt = { "menuone", "noselect" },
 	conceallevel = 0,
@@ -20,12 +19,13 @@ local options = {
 	tabstop = 2,
 	cursorline = true,
 	number = true,
-	relativenumber = false,
+	relativenumber = true,
 	numberwidth = 2,
 	wrap = false,
 	termguicolors = true,
 }
 
+vim.opt.clipboard:prepend({ "unnamed", "unnamedplus" })
 vim.opt.shortmess:append("c")
 
 for x, y in pairs(options) do

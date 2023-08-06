@@ -15,14 +15,14 @@ bufferline.setup({
 	highlights = {
 		background = {
 			fg = "#657b83",
-			bg = "#1e1f28",
+			bg = "#282828",
 		},
 		buffer_selected = {
 			fg = "#fdf6e3",
 			bold = true,
 		},
 		fill = {
-			bg = "#1e1f28",
+			bg = "#282828",
 		},
 	},
 })
