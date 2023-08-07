@@ -43,6 +43,7 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Zsh shell](https://www.zsh.org/) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.<br>
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - An open source, community-driven framework for managing your zsh configuration.<br>
 - [Spaceship](https://spaceship-prompt.sh/) - Minimalistic, powerful and extremely customizable Zsh prompt<br>
+- [LSD (LSDeluxe)](https://github.com/lsd-rs/lsd) - The next gen ls command<br>
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
