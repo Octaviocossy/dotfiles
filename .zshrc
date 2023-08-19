@@ -1,12 +1,7 @@
-#!/bin/sh
-[ -f "$HOME/.local/share/zap/zap.zsh" ] && source "$HOME/.local/share/zap/zap.zsh"
+# Created by Zap installer
+[ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 
-# Path to your oh-my-zsh installation.
-export ZSH="$HOME/.oh-my-zsh"
-
-# Theme
-source /home/linuxbrew/.linuxbrew/opt/spaceship/spaceship.zsh
-
+# Theme config
 SPACESHIP_ASYNC_SHOW=false
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_GIT_ASYNC=false
@@ -43,3 +38,9 @@ plug "zap-zsh/supercharge"
 # Brew Config (Linux)
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# Load and initialise completion system
+autoload -Uz compinit
+compinit
+
+source /home/linuxbrew/.linuxbrew/opt/spaceship/spaceship.zsh
