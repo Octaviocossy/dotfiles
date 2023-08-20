@@ -29,6 +29,7 @@ function openNvim {
 }
 
 # Plugins
+plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-autosuggestions"
 plug "hlissner/zsh-autopair"
 plug "zap-zsh/completions"
