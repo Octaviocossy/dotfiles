@@ -25,7 +25,10 @@ local options = {
 	termguicolors = true,
 }
 
-vim.opt.clipboard:prepend({ "unnamed", "unnamedplus" })
+-- (Windows)
+-- vim.opt.clipboard:prepend({ "unnamed", "unnamedplus" })
+
+vim.opt.clipboard:prepend({ "unnamedplus" })
 vim.opt.shortmess:append("c")
 
 for x, y in pairs(options) do

@@ -1,42 +1,33 @@
 [colors]
 draw_bold_text_with_bright_colors = true
 
-[colors.bright]
-black = "#686868"
-blue = "#57c7ff"
-cyan = "#9aedfe"
-green = "#5af78e"
-magenta = "#ff6ac1"
-red = "#ff5c57"
-white = "#eff0eb"
-yellow = "#f3f99d"
-
-[colors.cursor]
-cursor = "#97979b"
-
-[colors.normal]
-black = "#282a36"
-blue = "#57c7ff"
-cyan = "#9aedfe"
-green = "#5af78e"
-magenta = "#ff6ac1"
-red = "#ff5c57"
-white = "#f1f1f0"
-yellow = "#f3f99d"
-
 [colors.primary]
-background = "#282a36"
-foreground = "#eff0eb"
-
-[colors.selection]
-background = "#feffff"
-text = "#282a36"
+background = "#1a1b26"
+foreground = "#a9b1d6"
+[colors.normal]
+black = "#32344a"
+red = "#f7768e"
+green = "#9ece6a"
+yellow = "#e0af68"
+blue = "#7aa2f7"
+magenta = "#ad8ee6"
+cyan = "#449dab"
+white = "#787c99"
+[colors.bright]
+black = "#444b6a"
+red = "#ff7a93"
+green = "#b9f27c"
+yellow = "#ff9e64"
+blue = "#7da6ff"
+magenta = "#bb9af7"
+cyan = "#0db9d7"
+white = "#acb0d0"
 
 [font]
-size = 10.0
+size = 10.5
 
 [font.normal]
-family = "JetBrainsMono Nerd Font Mono"
+family = "FiraCode Nerd Font Mono"
 style = "Medium"
 
 [[keyboard.bindings]]

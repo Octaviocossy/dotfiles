@@ -12,19 +12,6 @@ bufferline.setup({
 		show_close_icon = false,
 		color_icons = true,
 	},
-	highlights = {
-		background = {
-			fg = "#657b83",
-			bg = "#282828",
-		},
-		buffer_selected = {
-			fg = "#fdf6e3",
-			bold = true,
-		},
-		fill = {
-			bg = "#282828",
-		},
-	},
 })
 
 vim.keymap.set("n", "<Tab>", "<Cmd>BufferLineCycleNext<CR>", {})
