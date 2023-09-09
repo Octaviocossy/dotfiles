@@ -36,6 +36,7 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Scoop](https://scoop.sh/) - A command-line installer<br>
 - [Oh-My-Posh](https://ohmyposh.dev/) - Prompt theme engine<br>
 - [Posh-Git](https://github.com/dahlbyk/posh-git) - A PowerShell environment for Git<br>
+- [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - A PowerShell module to show file and folder icons in the terminal<br>
 - [z for PowerShell](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
 
 ## ZSH Setup
