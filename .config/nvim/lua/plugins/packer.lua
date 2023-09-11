@@ -16,7 +16,7 @@ return require("packer").startup(function()
 	use({ "nvim-lua/plenary.nvim", "MunifTanjim/nui.nvim" })
 
 	-- Colorscheme
-	use({ "folke/tokyonight.nvim" })
+	use("lunarvim/darkplus.nvim")
 
 	-- File explorer
 	use({
@@ -60,6 +60,7 @@ return require("packer").startup(function()
 		"jose-elias-alvarez/null-ls.nvim",
 		"onsails/lspkind-nvim",
 		"nvimdev/lspsaga.nvim",
+		"github/copilot.vim",
 	})
 
 	-- Treesitter

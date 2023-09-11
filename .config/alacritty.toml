@@ -1,32 +1,8 @@
-[colors]
-draw_bold_text_with_bright_colors = true
-
-[colors.primary]
-background = "#1a1b26"
-foreground = "#a9b1d6"
-[colors.normal]
-black = "#32344a"
-red = "#f7768e"
-green = "#9ece6a"
-yellow = "#e0af68"
-blue = "#7aa2f7"
-magenta = "#ad8ee6"
-cyan = "#449dab"
-white = "#787c99"
-[colors.bright]
-black = "#444b6a"
-red = "#ff7a93"
-green = "#b9f27c"
-yellow = "#ff9e64"
-blue = "#7da6ff"
-magenta = "#bb9af7"
-cyan = "#0db9d7"
-white = "#acb0d0"
-
 [font]
 size = 10.5
 
 [font.normal]
+# family = "JetBrainsMono Nerd Font Mono"
 family = "FiraCode Nerd Font Mono"
 style = "Medium"
 
@@ -38,8 +14,33 @@ key = "F11"
 program = "/bin/zsh"
 
 [window]
-opacity = 0.8
+opacity = 1
 
 [window.dimensions]
-columns = 100
-lines = 35
+columns = 120
+lines = 33
+
+[colors.primary]
+background = "#1c1c1c"
+foreground = "#abb2bf"
+
+[colors.normal]
+black = "#5c6370"
+red = "#e06c75"
+green = "#98c379"
+yellow = "#e5c07b"
+blue = "#61afef"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#abb2bf"
+
+[colors.bright]
+black = "#5c6370"
+red = "#e06c75"
+green = "#98c379"
+yellow = "#e5c07b"
+blue = "#61afef"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#ffffff"
+
