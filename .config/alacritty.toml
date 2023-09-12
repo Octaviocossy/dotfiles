@@ -2,8 +2,8 @@
 size = 10.5
 
 [font.normal]
-# family = "JetBrainsMono Nerd Font Mono"
-family = "FiraCode Nerd Font Mono"
+family = "JetBrainsMono Nerd Font Mono"
+# family = "FiraCode Nerd Font Mono"
 style = "Medium"
 
 [[keyboard.bindings]]
@@ -17,8 +17,13 @@ program = "/bin/zsh"
 opacity = 1
 
 [window.dimensions]
-columns = 120
-lines = 33
+# JetBrains
+columns = 123
+lines = 35
+
+# FiraCode
+# columns = 110
+# lines = 38
 
 [colors.primary]
 background = "#1c1c1c"
