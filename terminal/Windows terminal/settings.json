@@ -58,24 +58,7 @@
     "defaults": {},
     "list": [
       {
-        "bellStyle": "none",
-        "colorScheme": "Snazzy (Modded)",
-        "font": {
-          "face": "JetBrainsMono NFM",
-          "size": 10.0
-        },
-        "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
-        "hidden": false,
-        "name": "Dev",
-        "opacity": 100,
-        "padding": "4",
-        "scrollbarState": "hidden",
-        "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "useAcrylic": false,
-        "useAtlasEngine": true
-      },
-      {
-        "colorScheme": "Material",
+        "colorScheme": "One Dark",
         "commandline": "\"C:\\Users\\octav\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -NoLogo",
         "cursorShape": "filledBox",
         "font": {
@@ -119,27 +102,27 @@
       "yellow": "#F3F99D"
     },
     {
-      "background": "#263238",
+      "background": "#252525",
       "black": "#000000",
-      "blue": "#82AAFF",
-      "brightBlack": "#546E7A",
-      "brightBlue": "#82AAFF",
-      "brightCyan": "#89DDFF",
-      "brightGreen": "#C3E88D",
-      "brightPurple": "#C792EA",
-      "brightRed": "#F07178",
+      "blue": "#61AFEF",
+      "brightBlack": "#5C6370",
+      "brightBlue": "#61AFEF",
+      "brightCyan": "#56B6C2",
+      "brightGreen": "#98C379",
+      "brightPurple": "#C678DD",
+      "brightRed": "#E06C75",
       "brightWhite": "#FFFFFF",
-      "brightYellow": "#FFCB6B",
+      "brightYellow": "#D19A66",
       "cursorColor": "#FFFFFF",
-      "cyan": "#89DDFF",
-      "foreground": "#EEFFFF",
-      "green": "#C3E88D",
-      "name": "Material",
-      "purple": "#C792EA",
-      "red": "#F07178",
+      "cyan": "#56B6C2",
+      "foreground": "#ccc",
+      "green": "#98C379",
+      "name": "One Dark",
+      "purple": "#C678DD",
+      "red": "#E06C75",
       "selectionBackground": "#FFFFFF",
-      "white": "#FFFFFF",
-      "yellow": "#FFCB6B"
+      "white": "#ABB2BF",
+      "yellow": "#D19A66"
     }
   ],
   "showTerminalTitleInTitlebar": true,
