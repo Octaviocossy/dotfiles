@@ -9,15 +9,18 @@ set -g theme_display_user yes
 set -g theme_hide_hostname no
 set -g theme_hostname always
 
-# aliases
-alias ls "ls -p -G"
-alias ll "exa -l -g --icons"
-alias lla "ll -a"
-alias tree "exa --tree --level=3 --long"
+# tmux
 alias t="tmux"
 alias tl="tmux list-sessions"
 alias tk="tmux kill-session"
 alias tms="tmux source ~/.tmux.conf"
+
+# exa
+alias ls="exa --icons"
+alias la="exa -la --icons"
+alias ll="exa -ll --icons"
+alias lla="exa -la --icons"
+alias tree="exa --tree --level=3 --long"
 
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

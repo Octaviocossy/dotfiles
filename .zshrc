@@ -17,6 +17,7 @@ alias ls="exa --icons"
 alias la="exa -la --icons"
 alias ll="exa -ll --icons"
 alias lla="exa -la --icons"
+alias tree="exa --tree --level=3 --long"
 
 # Nvim
 alias v=openNvim
