@@ -12,11 +12,11 @@ alias tl="tmux list-sessions"
 alias tk="tmux kill-session"
 alias tms="tmux source ~/.tmux.conf"
 
-# LSDeluxe
-alias l="lsd -la"
-alias ls="lsd"
-alias la="lsd -la"
-alias lla="lsd -la"
+# exa
+alias ls="exa --icons"
+alias la="exa -la --icons"
+alias ll="exa -ll --icons"
+alias lla="exa -la --icons"
 
 # Nvim
 alias v=openNvim
