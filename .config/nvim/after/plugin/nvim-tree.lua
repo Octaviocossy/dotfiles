@@ -1,22 +1,27 @@
 local status_ok, nvimtree = pcall(require, "nvim-tree")
 
 if not status_ok then
-	return
+  return
 end
 
 nvimtree.setup({
-	sort_by = "case_sensitive",
-	view = {
-		adaptive_size = true,
-		side = "right",
-		width = 55,
-	},
-	renderer = {
-		group_empty = true,
-	},
-	filters = {
-		dotfiles = false,
-	},
+  sort_by = "case_sensitive",
+  view = {
+    adaptive_size = true,
+    side = "right",
+    width = 55,
+  },
+  renderer = {
+    group_empty = true,
+  },
+  filters = {
+    dotfiles = false,
+  },
+  git = {
+    enable = true,
+    ignore = false,
+    timeout = 400,
+  },
 })
 
 -- Keymap
