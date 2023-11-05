@@ -35,27 +35,19 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - A PowerShell module to show file and folder icons in the terminal<br>
 - [z for PowerShell](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
 
-## Fish Setup
-
-- [Fish shell](https://fishshell.com/) - fish is a smart and user-friendly command line shell<br>
-- [Fisher](https://github.com/jorgebucaran/fisher) - Plugin manager<br>
-- [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
-- [Tide](https://github.com/IlanCosman/tide) - Shell theme<br>
-- [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
-- [z for fish](https://github.com/jethrokuan/z) - Directory jumper<br>
-- [Exa](https://the.exa.website/) - ls replacement<br>
-
 ## ZSH Setup
 
 - [Zsh shell](https://www.zsh.org/) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.<br>
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - An open source, community-driven framework for managing your zsh configuration.<br>
-- [Spaceship](https://spaceship-prompt.sh/) - Minimalistic, powerful and extremely customizable Zsh prompt<br>
-- [LSD (LSDeluxe)](https://github.com/lsd-rs/lsd) - The next gen ls command<br>
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
 
+# Wsltty
+
+Mintty is a terminal emulator for Cygwin, MSYS, and WSL. [URL](https://github.com/mintty/wsltty/releases).
+After installing run "configure WSL shortcuts"
+
 ## Tmux Setup
 
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) - Installs and loads tmux plugins.<br>
-
