@@ -45,7 +45,7 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 
 # Wsltty
 
-Mintty is a terminal emulator for Cygwin, MSYS, and WSL. [URL](https://github.com/mintty/wsltty/releases).
+Mintty is a terminal emulator for Cygwin, MSYS, and WSL. -> [URL](https://github.com/mintty/wsltty/releases).<br>
 After installing run "configure WSL shortcuts"
 
 ## Tmux Setup
