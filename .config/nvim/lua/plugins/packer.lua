@@ -16,7 +16,7 @@ return require("packer").startup(function()
   use({ "nvim-lua/plenary.nvim", "MunifTanjim/nui.nvim" })
 
   -- Colorscheme
-  use { "ellisonleao/gruvbox.nvim" }
+  use { "folke/tokyonight.nvim" }
 
   -- File explorer
   use({

@@ -59,7 +59,7 @@
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "Snazzy",
+        "colorScheme": "Tokyo Night Storm",
         "font": {
           "face": "JetBrainsMono Nerd Font Mono",
           "size": 10.0
@@ -67,15 +67,38 @@
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
         "hidden": false,
         "name": "Ubuntu 22.04.2 LTS",
-        "opacity": 70,
+        "opacity": 100,
         "padding": "0",
         "scrollbarState": "hidden",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "useAcrylic": true
+        "useAcrylic": false
       }
     ]
   },
   "schemes": [
+    {
+      "background": "#24283B",
+      "black": "#414868",
+      "blue": "#7AA2F7",
+      "brightBlack": "#414868",
+      "brightBlue": "#7AA2F7",
+      "brightCyan": "#7DCFFF",
+      "brightGreen": "#73DACA",
+      "brightPurple": "#BB9AF7",
+      "brightRed": "#F7768E",
+      "brightWhite": "#C0CAF5",
+      "brightYellow": "#E0AF68",
+      "cursorColor": "#C0CAF5",
+      "cyan": "#7DCFFF",
+      "foreground": "#A9B1DC",
+      "green": "#73DACA",
+      "name": "Tokyo Night Storm",
+      "purple": "#BB9AF7",
+      "red": "#F7768E",
+      "selectionBackground": "#28344A",
+      "white": "#C0CAF5",
+      "yellow": "#E0AF68"
+    },
     {
       // "background": "#282A36", // -> Default bg
       "background": "#111422",
