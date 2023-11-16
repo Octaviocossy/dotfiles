@@ -7,12 +7,11 @@ These dotfiles are likely to change over time. All the config what found in this
 - Zsh config.
 - Tmux config.
 - Neovim config.
-- Alacritty config.
 - PowerShell config.
 
 ## Neovim Setup
 
-To run this configuration requires neovim >= "5.0".
+To run this configuration requires neovim >= "9.0".
 This configuration can be perfectly adapted to mac, linux or even windows. Depending on the system will be the dependencies to be installed
 
 #### General dependencies:
@@ -37,6 +36,7 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 
 ## ZSH Setup
 
+- [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 - [Zsh shell](https://www.zsh.org/) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.<br>
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - An open source, community-driven framework for managing your zsh configuration.<br>
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
