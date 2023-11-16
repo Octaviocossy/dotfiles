@@ -5,6 +5,7 @@ Set-Alias l ls
 Set-Alias ll ls 
 Set-Alias lla ls 
 Set-Alias v nvim
+Set-Alias lg lazygit
 
 # git and oh-my-posh
 Import-Module posh-git

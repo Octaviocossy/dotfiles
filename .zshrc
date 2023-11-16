@@ -15,13 +15,14 @@ alias tk="tmux kill-session"
 alias tms="tmux source ~/.tmux.conf"
 
 # LazyGit
-alias lgit="lazygit"
+alias lg="lazygit"
 
 # ls alias
-alias l="ls -la"
-alias ls="ls"
-alias la="ls -la"
-alias lla="ls -la"
+alias ls="exa --icons"
+alias la="exa -la --icons"
+alias ll="exa -ll --icons"
+alias lla="exa -la --icons"
+alias tree="exa --tree --level=3 --long"
 
 # Nvim
 alias v=openNvim
@@ -44,7 +45,3 @@ plug "zap-zsh/supercharge"
 # Brew Config (Linux)
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-# Load and initialise completion system
-autoload -Uz compinit
-compinit

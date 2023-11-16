@@ -33,14 +33,16 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Posh-Git](https://github.com/dahlbyk/posh-git) - A PowerShell environment for Git<br>
 - [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - A PowerShell module to show file and folder icons in the terminal<br>
 - [z for PowerShell](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
+- [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 
 ## ZSH Setup
 
-- [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 - [Zsh shell](https://www.zsh.org/) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.<br>
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - An open source, community-driven framework for managing your zsh configuration.<br>
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
+- [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
+- [exa](https://the.exa.website/) - A modern replacement for ls.<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
 
 ## Tmux Setup
