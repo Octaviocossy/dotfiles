@@ -1,11 +1,21 @@
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 
+export ZSH=$HOME/.oh-my-zsh
+
+# theme
+ZSH_THEME="robbyrussell"
+
+source $ZSH/oh-my-zsh.sh
+
 # tmux
 alias t="tmux"
 alias tl="tmux list-sessions"
 alias tk="tmux kill-session"
 alias tms="tmux source ~/.tmux.conf"
+
+# LazyGit
+alias lgit="lazygit"
 
 # ls alias
 alias l="ls -la"
@@ -28,7 +38,6 @@ plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-autosuggestions"
 plug "hlissner/zsh-autopair"
 plug "zap-zsh/completions"
-plug "zap-zsh/zap-prompt"
 plug "agkozak/zsh-z"
 plug "zap-zsh/supercharge"
 
