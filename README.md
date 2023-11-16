@@ -43,11 +43,6 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
 
-# Wsltty
-
-Mintty is a terminal emulator for Cygwin, MSYS, and WSL. -> [URL](https://github.com/mintty/wsltty/releases).<br>
-After installing run "configure WSL shortcuts"
-
 ## Tmux Setup
 
 - [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) - Installs and loads tmux plugins.<br>
