@@ -25,6 +25,10 @@ telescope.setup({
 })
 
 -- Keymap
+vim.keymap.set("n", "<Leader>b", function()
+	builtin.buffers()
+end)
+
 vim.keymap.set("n", "<Leader>d", function()
 	builtin.find_files()
 end)
