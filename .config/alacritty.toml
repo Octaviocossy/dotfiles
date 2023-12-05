@@ -1,0 +1,50 @@
+[font]
+size = 10.5
+
+[font.normal]
+family = "JetBrainsMono Nerd Font Mono"
+# family = "FiraCode Nerd Font Mono"
+style = "Medium"
+
+[[keyboard.bindings]]
+action = "ToggleFullscreen"
+key = "F11"
+
+[shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 1
+
+[window.dimensions]
+# JetBrains
+columns = 123
+lines = 35
+
+# FiraCode
+# columns = 110
+# lines = 38
+
+[colors.primary]
+background = "#1c1c1c"
+foreground = "#abb2bf"
+
+[colors.normal]
+black = "#5c6370"
+red = "#e06c75"
+green = "#98c379"
+yellow = "#e5c07b"
+blue = "#61afef"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#abb2bf"
+
+[colors.bright]
+black = "#5c6370"
+red = "#e06c75"
+green = "#98c379"
+yellow = "#e5c07b"
+blue = "#61afef"
+magenta = "#c678dd"
+cyan = "#56b6c2"
+white = "#ffffff"

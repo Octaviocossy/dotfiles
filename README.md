@@ -8,6 +8,7 @@ These dotfiles are likely to change over time. All the config what found in this
 - Tmux config.
 - Neovim config.
 - PowerShell config.
+- Alacritty config.
 
 ## Neovim Setup
 
