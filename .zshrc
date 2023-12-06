@@ -17,12 +17,11 @@ alias tms="tmux source ~/.tmux.conf"
 # LazyGit
 alias lg="lazygit"
 
-# ls alias
-alias ls="exa --icons"
-alias la="exa -la --icons"
-alias ll="exa -ll --icons"
-alias lla="exa -la --icons"
-alias tree="exa --tree --level=3 --long"
+# LSDeluxe
+alias l="lsd -la"
+alias ls="lsd"
+alias la="lsd -la"
+alias lla="lsd -la"
 
 # Nvim
 alias v=openNvim

@@ -1,9 +1,8 @@
 [font]
-size = 10.5
+size = 9.5
 
 [font.normal]
 family = "JetBrainsMono Nerd Font Mono"
-# family = "FiraCode Nerd Font Mono"
 style = "Medium"
 
 [[keyboard.bindings]]
@@ -11,19 +10,14 @@ action = "ToggleFullscreen"
 key = "F11"
 
 [shell]
-program = "/bin/zsh"
+program = "/home/linuxbrew/.linuxbrew/bin/zsh"
 
 [window]
-opacity = 1
+opacity = 0.80
 
 [window.dimensions]
-# JetBrains
 columns = 123
-lines = 35
-
-# FiraCode
-# columns = 110
-# lines = 38
+lines = 40
 
 [colors.primary]
 background = "#1c1c1c"
