@@ -1,8 +1,11 @@
+[env]
+TERM = "xterm-256color"
+
 [font]
-size = 9.5
+size = 9
 
 [font.normal]
-family = "JetBrainsMono Nerd Font Mono"
+family = "MonoLisa Nerd Font"
 style = "Medium"
 
 [[keyboard.bindings]]
@@ -13,32 +16,33 @@ key = "F11"
 program = "/home/linuxbrew/.linuxbrew/bin/zsh"
 
 [window]
-opacity = 0.80
+opacity = 0.9
 
 [window.dimensions]
 columns = 123
-lines = 40
+
+lines = 45
 
 [colors.primary]
-background = "#1c1c1c"
-foreground = "#abb2bf"
+background = "#001419"
+foreground = "0x839496"
 
 [colors.normal]
-black = "#5c6370"
-red = "#e06c75"
-green = "#98c379"
-yellow = "#e5c07b"
-blue = "#61afef"
-magenta = "#c678dd"
-cyan = "#56b6c2"
-white = "#abb2bf"
+black = "0x073642"
+red = "0xdc322f"
+green = "0x859900"
+yellow = "0xb58900"
+blue = "0x268bd2"
+magenta = "0xd33682"
+cyan = "0x2aa198"
+white = "0xeee8d5"
 
 [colors.bright]
-black = "#5c6370"
-red = "#e06c75"
-green = "#98c379"
-yellow = "#e5c07b"
-blue = "#61afef"
-magenta = "#c678dd"
-cyan = "#56b6c2"
-white = "#ffffff"
+black = "0x002b36"
+red = "0xcb4b16"
+green = "0x586e75"
+yellow = "0x657b83"
+blue = "0x839496"
+magenta = "0x6c71c4"
+cyan = "0x93a1a1"
+white = "0xfdf6e3"

@@ -4,7 +4,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
 # theme
-ZSH_THEME="robbyrussell"
+ZSH_THEME="agnoster"
 
 source $ZSH/oh-my-zsh.sh
 
