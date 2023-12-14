@@ -27,6 +27,10 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 
 **_Mingw Compiler:_** `scoop install mingw`
 
+#### WSL dependencies:
+
+**_GCC:_** `sudo apt install build-essential`
+
 ## PowerShell Setup
 
 - [Scoop](https://scoop.sh/) - A command-line installer<br>
