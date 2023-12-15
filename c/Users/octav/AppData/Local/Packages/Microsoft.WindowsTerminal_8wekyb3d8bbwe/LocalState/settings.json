@@ -53,51 +53,51 @@
   "copyOnSelect": false,
   "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
   "initialCols": 130,
-  "initialRows": 45,
+  "initialRows": 33,
   "profiles": {
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "Solarized Osaka",
+        "colorScheme": "Campbell",
         "font": {
           "cellHeight": "1.5",
-          "face": "DankMono Nerd Font",
-          "size": 10.0
+          "face": "ComicCode Nerd Font",
+          "size": 9.0
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
         "hidden": false,
         "name": "Ubuntu 22.04.2 LTS",
-        "opacity": 80,
+        "opacity": 100,
         "padding": "0",
         "scrollbarState": "hidden",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "useAcrylic": true
+        "useAcrylic": false
       }
     ]
   },
   "schemes": [
     {
-      "background": "#001419",
-      "black": "#002B36",
-      "blue": "#268BD2",
-      "brightBlack": "#073642",
-      "brightBlue": "#839496",
-      "brightCyan": "#93A1A1",
-      "brightGreen": "#586E75",
-      "brightPurple": "#6C71C4",
-      "brightRed": "#CB4B16",
-      "brightWhite": "#FDF6E3",
-      "brightYellow": "#657B83",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#2AA198",
-      "foreground": "#839496",
-      "green": "#859900",
-      "name": "Solarized Osaka",
-      "purple": "#D33682",
-      "red": "#DC322F",
-      "selectionBackground": "#FFFFFF",
-      "white": "#EEE8D5",
-      "yellow": "#B58900"
+      "background": "#1a1a1a",
+      "black": "#282A36",
+      "blue": "#57C7FF",
+      "brightBlack": "#686868",
+      "brightBlue": "#57C7FF",
+      "brightCyan": "#9AEDFE",
+      "brightGreen": "#5AF78E",
+      "brightPurple": "#FF6AC1",
+      "brightRed": "#FF5C57",
+      "brightWhite": "#EFF0EB",
+      "brightYellow": "#F3F99D",
+      "cursorColor": "#97979B",
+      "cyan": "#9AEDFE",
+      "foreground": "#EFF0EB",
+      "green": "#5AF78E",
+      "name": "Snazzy (Modded)",
+      "purple": "#FF6AC1",
+      "red": "#FF5C57",
+      "selectionBackground": "#3E404A",
+      "white": "#F1F1F0",
+      "yellow": "#F3F99D"
     }
   ],
   "showTerminalTitleInTitlebar": true,
