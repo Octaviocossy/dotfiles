@@ -5,33 +5,61 @@
       "alignment": "left",
       "segments": [
         {
-          "foreground": "#98C379",
+          "foreground": "#FFEE58",
           "style": "plain",
-          "template": "\u279c",
-          "type": "text"
+          "template": " \uf0e7 ",
+          "type": "root"
         },
         {
-          "foreground": "#56B6C2",
-          "properties": {
-            "style": "folder"
-          },
+          "foreground": "#ffffff",
           "style": "plain",
+          "template": " ovct@{{ .HostName }} ",
+          "type": "session"
+        },
+        {
+          "background": "#91ddff",
+          "foreground": "#100e23",
+          "powerline_symbol": "\ue0b0",
+          "properties": {
+            "style": "full"
+          },
+          "style": "powerline",
           "template": " {{ .Path }} ",
           "type": "path"
         },
         {
-          "foreground": "#D0666F",
+          "background": "#95ffa4",
+          "background_templates": [
+            "{{ if or (.Working.Changed) (.Staging.Changed) }}#ffeb95{{ end }}",
+            "{{ if and (gt .Ahead 0) (gt .Behind 0) }}#c5e478{{ end }}",
+            "{{ if gt .Ahead 0 }}#C792EA{{ end }}",
+            "{{ if gt .Behind 0 }}#C792EA{{ end }}"
+          ],
+          "foreground": "#011627",
+          "powerline_symbol": "\ue0b0",
           "properties": {
-            "branch_icon": ""
+            "branch_icon": "\ue725 ",
+            "fetch_status": true,
+            "fetch_upstream_icon": true
           },
-          "style": "plain",
-          "template": "<#5FAAE8>git:(</>{{ .HEAD }}<#5FAAE8>)</>",
+          "style": "powerline",
+          "template": " {{ .HEAD }} {{ if .Working.Changed }}{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}<#ef5350> \uf046 {{ .Staging.String }}</>{{ end }} ",
           "type": "git"
         },
         {
-          "foreground": "#BF616A",
-          "style": "plain",
-          "template": " \u2717",
+          "background": "#906cff",
+          "foreground": "#100e23",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " \ue235 {{ if .Error }}{{ .Error }}{{ else }}{{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}{{ end }} ",
+          "type": "python"
+        },
+        {
+          "background": "#ff8080",
+          "foreground": "#ffffff",
+          "powerline_symbol": "\ue0b0",
+          "style": "powerline",
+          "template": " \ue20f ",
           "type": "status"
         }
       ],
@@ -41,4 +69,3 @@
   "final_space": true,
   "version": 2
 }
-
