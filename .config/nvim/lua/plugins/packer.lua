@@ -15,8 +15,8 @@ return require("packer").startup(function()
 	-- Common utilities
 	use({ "nvim-lua/plenary.nvim", "MunifTanjim/nui.nvim" })
 
-	-- Colorscheme
-	use({ "craftzdog/solarized-osaka.nvim" })
+  -- Colorscheme
+  use { "ellisonleao/gruvbox.nvim" }
 
 	-- File explorer
 	use({
