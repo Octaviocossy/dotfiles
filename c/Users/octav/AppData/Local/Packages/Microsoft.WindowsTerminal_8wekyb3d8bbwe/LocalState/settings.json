@@ -52,16 +52,16 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
-  "initialCols": 130,
-  "initialRows": 33,
+  "initialCols": 125,
+  "initialRows": 45,
   "profiles": {
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "Campbell",
+        "colorScheme": "GruvboxDarkHard",
         "font": {
           "cellHeight": "1.5",
-          "face": "ComicCode Nerd Font",
+          "face": "MonoLisa Nerd Font",
           "size": 9.0
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
@@ -98,6 +98,29 @@
       "selectionBackground": "#3E404A",
       "white": "#F1F1F0",
       "yellow": "#F3F99D"
+    },
+    {
+      "background": "#1d2021",
+      "black": "#1B1B1B",
+      "blue": "#458588",
+      "brightBlack": "#928374",
+      "brightBlue": "#83A598",
+      "brightCyan": "#8EC07C",
+      "brightGreen": "#B8BB26",
+      "brightPurple": "#D3869B",
+      "brightRed": "#FB4934",
+      "brightWhite": "#EBDBB2",
+      "brightYellow": "#FABD2F",
+      "cursorColor": "#EBDBB2",
+      "cyan": "#689D6A",
+      "foreground": "#EBDBB2",
+      "green": "#98971A",
+      "name": "GruvboxDarkHard",
+      "purple": "#B16286",
+      "red": "#CC241D",
+      "selectionBackground": "#665C54",
+      "white": "#A89984",
+      "yellow": "#D79921"
     }
   ],
   "showTerminalTitleInTitlebar": true,
