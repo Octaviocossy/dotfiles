@@ -52,16 +52,16 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
-  "initialCols": 130,
-  "initialRows": 45,
+  "initialCols": 135,
+  "initialRows": 30,
   "profiles": {
     "list": [
       {
         "bellStyle": "none",
         "colorScheme": "GruvboxDarkHard",
         "font": {
-          "cellHeight": "1.5",
-          "face": "Hack Nerd Font Mono",
+          "cellHeight": "1.8",
+          "face": "JetBrainsMono Nerd Font Mono",
           "size": 9
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
