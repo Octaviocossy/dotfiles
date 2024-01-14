@@ -52,7 +52,7 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
-  "initialCols": 125,
+  "initialCols": 130,
   "initialRows": 45,
   "profiles": {
     "list": [
@@ -61,17 +61,17 @@
         "colorScheme": "Ayu Dark",
         "font": {
           "cellHeight": "1.5",
-          "face": "GeistMono Nerd Font Mono",
-          "size": 10
+          "face": "Hack Nerd Font Mono",
+          "size": 9
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
         "hidden": false,
         "name": "Ubuntu 22.04.2 LTS",
-        "opacity": 100,
+        "opacity": 80,
         "padding": "0",
         "scrollbarState": "hidden",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "useAcrylic": false
+        "useAcrylic": true
       }
     ]
   },

@@ -34,16 +34,15 @@ theme.setup({
   },
   inc_search = "background",   -- underline | background
   background_clear = {
-    -- "float_win",
     "toggleterm",
     "telescope",
-    -- "which-key",
     "renamer",
     "notify",
     "nvim-tree",
+    -- "float_win",
+    -- "which-key",
     -- "neo-tree",
-    -- "bufferline", -- better used if background of `neo-tree` or `nvim-tree` is cleared
-  }, -- "float_win", "toggleterm", "telescope", "which-key", "renamer", "neo-tree", "nvim-tree", "bufferline"
+  },              -- "float_win", "toggleterm", "telescope", "which-key", "renamer", "neo-tree", "nvim-tree", "bufferline"
   plugins = {
     bufferline = {
       underline_selected = false,
