@@ -2,11 +2,14 @@
 TERM = "xterm-256color"
 
 [font]
-size = 10.5
+size = 9.5
 
 [font.normal]
-family = "MonoLisa Nerd Font"
+family = "JetBrainsMono Nerd Font Mono"
 style = "Medium"
+
+[font.offset]
+y = 2
 
 [[keyboard.bindings]]
 action = "ToggleFullscreen"
@@ -16,13 +19,11 @@ key = "F11"
 program = "/bin/zsh"
 
 [window]
-#opacity = 0.9
-opacity = 1
+opacity = 0.9
 
 [window.dimensions]
 columns = 123
-
-lines = 45
+lines = 38
 
 # Colors (Gruvbox dark)
 
