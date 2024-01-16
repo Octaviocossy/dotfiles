@@ -1,46 +1,34 @@
-local servers = {
-	"tsserver",
-	"lua_ls",
-	"tailwindcss", -- Generates "Error executing vim.schedule lua callback",
-	"jsonls",
-	"cssls",
-	"prismals",
-}
+local mason_status_ok, mason = pcall(require, "mason")
+local mason_lsp_config_status_ok, mason_lsp_config = pcall(require, "mason-lspconfig")
 
-local settings = {
-	ui = {
-		border = "none",
-		icons = {
-			package_installed = "◍",
-			package_pending = "◍",
-			package_uninstalled = "◍",
-		},
-	},
-	log_level = vim.log.levels.INFO,
-	max_concurrent_installers = 4,
-}
+if not mason_status_ok then
+  return
+end
 
-require("mason").setup(settings)
-require("mason-lspconfig").setup({
-	ensure_installed = servers,
-	automatic_installation = true,
+if not mason_lsp_config_status_ok then
+  return
+end
+
+-- language servers
+local servers = require('lsp.servers')
+
+mason.setup({
+  ensure_installed = {
+    'rust-analyzer'
+  },
+  ui = {
+    border = "none",
+    icons = {
+      package_installed = "◍",
+      package_pending = "◍",
+      package_uninstalled = "◍",
+    },
+  },
+  log_level = vim.log.levels.INFO,
+  max_concurrent_installers = 4,
 })
 
-local lspconfig_status_ok, lspconfig = pcall(require, "lspconfig")
-
-if not lspconfig_status_ok then
-	return
-end
-
-local opts = {}
-
-for _, server in pairs(servers) do
-	opts = {
-		on_attach = require("lsp.handlers").on_attach,
-		capabilities = require("lsp.handlers").capabilities,
-	}
-
-	server = vim.split(server, "@")[1]
-
-	lspconfig[server].setup(opts)
-end
+mason_lsp_config.setup({
+  automatic_installation = true,
+  ensure_installed = servers,
+})

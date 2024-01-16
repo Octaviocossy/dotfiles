@@ -5,5 +5,6 @@ if not status_ok then
 end
 
 require("lsp.mason")
+require("lsp.config")
 require("lsp.null-ls")
 require("lsp.handlers").setup()
