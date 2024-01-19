@@ -5,6 +5,12 @@ if not status_ok then
 end
 
 neo_tree.setup({
+  filesystem = {
+    filtered_items = {
+      hide_dotfiles = false,
+      hide_gitignored = false,
+    }
+  },
 	window = {
 		width = 60,
 		position = "right",
