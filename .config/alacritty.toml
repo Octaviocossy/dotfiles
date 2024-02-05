@@ -2,10 +2,10 @@
 TERM = "xterm-256color"
 
 [font]
-size = 10.5
+size = 11
 
 [font.normal]
-family = "FiraCode Nerd Font Mono"
+family = "Hack Nerd Font Mono"
 style = "Medium"
 
 [font.offset]
@@ -19,37 +19,41 @@ key = "F11"
 program = "/bin/zsh"
 
 [window]
-opacity = 0.9
+opacity = 0.95
 
 [window.dimensions]
 columns = 123
 lines = 38
 
-# Colors (One Dark)
-
-# Default colors
+# Colors (Snazzy)
 [colors.primary]
-background = '#282c34'
-foreground = '#abb2bf'
+background = "#282a36"
+foreground = "#eff0eb"
 
-# Normal colors
+[colors.cursor]
+cursor = "#97979b"
+
+[colors.selection]
+text = "#282a36"
+background = "#feffff"
+
 [colors.normal]
-black   = '#1e2127'
-red     = '#e06c75'
-green   = '#98c379'
-yellow  = '#d19a66'
-blue    = '#61afef'
-magenta = '#c678dd'
-cyan    = '#56b6c2'
-white   = '#abb2bf'
+black = "#282a36"
+red = "#ff5c57"
+green = "#5af78e"
+yellow = "#f3f99d"
+blue = "#57c7ff"
+magenta = "#ff6ac1"
+cyan = "#9aedfe"
+white = "#f1f1f0"
 
-# Bright colors
 [colors.bright]
-black   = '#5c6370'
-red     = '#e06c75'
-green   = '#98c379'
-yellow  = '#d19a66'
-blue    = '#61afef'
-magenta = '#c678dd'
-cyan    = '#56b6c2'
-white   = '#ffffff'
+black = "#686868"
+red = "#ff5c57"
+green = "#5af78e"
+yellow = "#f3f99d"
+blue = "#57c7ff"
+magenta = "#ff6ac1"
+cyan = "#9aedfe"
+white = "#eff0eb"
+
