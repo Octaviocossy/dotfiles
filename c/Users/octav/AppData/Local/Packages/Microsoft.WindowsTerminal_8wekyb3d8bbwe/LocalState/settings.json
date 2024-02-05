@@ -34,12 +34,6 @@
     },
     {
       "command": {
-        "action": "newTab"
-      },
-      "keys": "ctrl+t"
-    },
-    {
-      "command": {
         "action": "splitPane",
         "split": "auto",
         "splitMode": "duplicate"
@@ -52,16 +46,16 @@
   "copyFormatting": "none",
   "copyOnSelect": false,
   "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
-  "initialCols": 135,
-  "initialRows": 30,
+  "initialCols": 130,
+  "initialRows": 45,
   "profiles": {
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "GruvboxDarkHard",
+        "colorScheme": "Snazzy (Modded)",
         "font": {
-          "cellHeight": "1.8",
-          "face": "JetBrainsMono Nerd Font Mono",
+          "cellHeight": "1.5",
+          "face": "Hack Nerd Font Mono",
           "size": 9
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
@@ -77,27 +71,27 @@
   },
   "schemes": [
     {
-      "background": "#282c34",
-      "black": "#000000",
-      "blue": "#61AFEF",
-      "brightBlack": "#5C6370",
-      "brightBlue": "#61AFEF",
-      "brightCyan": "#56B6C2",
-      "brightGreen": "#98C379",
-      "brightPurple": "#C678DD",
-      "brightRed": "#E06C75",
-      "brightWhite": "#FFFFFF",
-      "brightYellow": "#D19A66",
-      "cursorColor": "#FFFFFF",
-      "cyan": "#56B6C2",
-      "foreground": "#DCDFE4",
-      "green": "#98C379",
-      "name": "One Dark",
-      "purple": "#C678DD",
-      "red": "#E06C75",
-      "selectionBackground": "#FFFFFF",
-      "white": "#ABB2BF",
-      "yellow": "#D19A66"
+      "background": "#191C24",
+      "black": "#282A36",
+      "blue": "#57C7FF",
+      "brightBlack": "#686868",
+      "brightBlue": "#57C7FF",
+      "brightCyan": "#9AEDFE",
+      "brightGreen": "#5AF78E",
+      "brightPurple": "#FF6AC1",
+      "brightRed": "#FF5C57",
+      "brightWhite": "#EFF0EB",
+      "brightYellow": "#F3F99D",
+      "cursorColor": "#97979B",
+      "cyan": "#9AEDFE",
+      "foreground": "#EFF0EB",
+      "green": "#5AF78E",
+      "name": "Snazzy (Modded)",
+      "purple": "#FF6AC1",
+      "red": "#FF5C57",
+      "selectionBackground": "#3E404A",
+      "white": "#F1F1F0",
+      "yellow": "#F3F99D"
     }
   ],
   "showTerminalTitleInTitlebar": true,
