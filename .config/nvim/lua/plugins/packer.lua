@@ -16,10 +16,10 @@ return require("packer").startup(function()
 	use({ "nvim-lua/plenary.nvim", "MunifTanjim/nui.nvim", "nvim-tree/nvim-web-devicons" })
 
 	-- Colorscheme
-	use({ "navarasu/onedark.nvim" })
+	use("loctvl842/monokai-pro.nvim")
 
 	-- File explorer
-	use({ "nvim-neo-tree/neo-tree.nvim" })
+	use({ "nvim-tree/nvim-tree.lua" })
 
 	-- Tmux nav
 	use("alexghergh/nvim-tmux-navigation")

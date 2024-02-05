@@ -1,8 +1,8 @@
 local M = {}
 
-local status_ok, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
+local cmp_status, cmp_nvim_lsp = pcall(require, "cmp_nvim_lsp")
 
-if not status_ok then
+if not cmp_status then
   return
 end
 
@@ -57,9 +57,9 @@ M.on_attach = function(client)
     client.server_capabilities.documentFormattingProvider = false
   end
 
-  local status_ok, illuminate = pcall(require, "illuminate")
+  local illuminate_status, illuminate = pcall(require, "illuminate")
 
-  if not status_ok then
+  if not illuminate_status then
     return
   end
 
