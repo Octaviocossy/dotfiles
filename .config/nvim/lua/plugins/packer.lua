@@ -16,7 +16,7 @@ return require("packer").startup(function()
 	use({ "nvim-lua/plenary.nvim", "MunifTanjim/nui.nvim", "nvim-tree/nvim-web-devicons" })
 
 	-- Colorscheme
-	use({ "catppuccin/nvim", as = "catppuccin" })
+	use("datsfilipe/vesper.nvim")
 
 	-- File explorer
 	use({ "nvim-tree/nvim-tree.lua" })
