@@ -47,51 +47,51 @@
   "copyOnSelect": false,
   "defaultProfile": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
   "initialCols": 130,
-  "initialRows": 45,
+  "initialRows": 40,
   "profiles": {
     "list": [
       {
         "bellStyle": "none",
-        "colorScheme": "Snazzy (Modded)",
+        "colorScheme": "Catppuccin Macchiato",
         "font": {
           "cellHeight": "1.5",
-          "face": "Hack Nerd Font Mono",
+          "face": "JetBrainsMono Nerd Font Mono",
           "size": 9
         },
         "guid": "{d7b20cea-47a9-518c-95a4-c8bd91e2e1c6}",
         "hidden": false,
         "name": "Ubuntu 22.04.2 LTS",
-        "opacity": 80,
+        "opacity": 100,
         "padding": "0",
         "scrollbarState": "hidden",
         "source": "CanonicalGroupLimited.Ubuntu22.04LTS_79rhkp1fndgsc",
-        "useAcrylic": true
+        "useAcrylic": false
       }
     ]
   },
   "schemes": [
     {
-      "background": "#191C24",
-      "black": "#282A36",
-      "blue": "#57C7FF",
-      "brightBlack": "#686868",
-      "brightBlue": "#57C7FF",
-      "brightCyan": "#9AEDFE",
-      "brightGreen": "#5AF78E",
-      "brightPurple": "#FF6AC1",
-      "brightRed": "#FF5C57",
-      "brightWhite": "#EFF0EB",
-      "brightYellow": "#F3F99D",
-      "cursorColor": "#97979B",
-      "cyan": "#9AEDFE",
-      "foreground": "#EFF0EB",
-      "green": "#5AF78E",
-      "name": "Snazzy (Modded)",
-      "purple": "#FF6AC1",
-      "red": "#FF5C57",
-      "selectionBackground": "#3E404A",
-      "white": "#F1F1F0",
-      "yellow": "#F3F99D"
+      "background": "#24273A",
+      "black": "#494D64",
+      "blue": "#8AADF4",
+      "brightBlack": "#5B6078",
+      "brightBlue": "#8AADF4",
+      "brightCyan": "#8BD5CA",
+      "brightGreen": "#A6DA95",
+      "brightPurple": "#F5BDE6",
+      "brightRed": "#ED8796",
+      "brightWhite": "#A5ADCB",
+      "brightYellow": "#EED49F",
+      "cursorColor": "#F4DBD6",
+      "cyan": "#8BD5CA",
+      "foreground": "#CAD3F5",
+      "green": "#A6DA95",
+      "name": "Catppuccin Macchiato",
+      "purple": "#F5BDE6",
+      "red": "#ED8796",
+      "selectionBackground": "#5B6078",
+      "white": "#B8C0E0",
+      "yellow": "#EED49F"
     }
   ],
   "showTerminalTitleInTitlebar": true,
