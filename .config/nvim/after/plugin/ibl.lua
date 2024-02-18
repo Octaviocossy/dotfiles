@@ -1,5 +1,7 @@
-local status, ibl = pcall(require, "ibl")
+local status_ok, ibl = pcall(require, "ibl")
 
-if (not status) then return end
+if not status_ok then
+	return
+end
 
-ibl.setup()
+ibl.setup({ indent = { char = "│" } })
