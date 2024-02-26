@@ -44,6 +44,7 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 
 - [Zsh shell](https://www.zsh.org/) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language.<br>
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - An open source, community-driven framework for managing your zsh configuration.<br>
+- [Powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#installation) - A Zsh theme.<br>
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
 - [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
