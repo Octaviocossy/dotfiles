@@ -4,4 +4,4 @@ if not status_ok then
 	return
 end
 
-ibl.setup({ indent = { char = "│" } })
+ibl.setup()
