@@ -59,7 +59,7 @@ return require("packer").startup(function()
 	})
 
 	-- Treesitter
-	use({"nvim-treesitter/nvim-treesitter", "nvim-treesitter/nvim-treesitter-context"})
+	use({ "nvim-treesitter/nvim-treesitter" })
 
 	-- Close tags and more
 	use({
