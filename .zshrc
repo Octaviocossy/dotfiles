@@ -15,11 +15,11 @@ alias tms="tmux source ~/.tmux.conf"
 # LazyGit
 alias lg="lazygit"
 
-# LSDeluxe
-alias l="lsd -la"
-alias ls="lsd"
-alias la="lsd -la"
-alias lla="lsd -la"
+# eza alias
+alias l="eza -a -l -g" # Add --icons to display them
+alias ls="eza -a"
+alias la="eza -a -l -g"
+alias lla="eza -a -l -g"
 
 # Nvim
 alias v=openNvim

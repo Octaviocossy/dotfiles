@@ -48,7 +48,7 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Brew](https://brew.sh/) - The Missing Package Manager for macOS (or Linux)<br>
 - [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
-- [LSD](https://github.com/lsd-rs/lsd) - A modern replacement for ls.<br>
+- [eza](https://github.com/eza-community/eza) - A modern replacement for ls.<br>
 - [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
 
 ## Tmux Setup
