@@ -1,14 +1,18 @@
 [console]::InputEncoding = [console]::OutputEncoding = New-Object System.Text.UTF8Encoding
 
-# Alias
-Set-Alias l ls
-Set-Alias ll ls 
-Set-Alias lla ls 
+function get_default_flags {
+    & eza -a -l -g
+}
 
-# git and oh-my-posh
-Import-Module posh-git
-$omp_config = Join-Path $PSScriptRoot ".\ovct_config.omp.json"
-oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
+# Alias
+Set-Alias -Name l -Value get_default_flags
+Set-Alias ls l
+Set-Alias la ls
+Set-Alias lla la
+Set-Alias lg lazygit
 
 # Icons
 Import-Module -Name Terminal-Icons
+
+# Theme
+Invoke-Expression (&starship init powershell)

@@ -9,6 +9,7 @@ These dotfiles are likely to change over time. All the config what found in this
 - Neovim config.
 - PowerShell config.
 - Alacritty config.
+- Windows Terminal config.
 
 ## Neovim Setup
 
@@ -34,9 +35,8 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 ## PowerShell Setup
 
 - [Scoop](https://scoop.sh/) - A command-line installer<br>
-- [Oh-My-Posh](https://ohmyposh.dev/) - Prompt theme engine<br>
-- [Posh-Git](https://github.com/dahlbyk/posh-git) - A PowerShell environment for Git<br>
-- [Terminal-Icons](https://github.com/devblackops/Terminal-Icons) - A PowerShell module to show file and folder icons in the terminal<br>
+- [Starship](https://starship.rs/) - A Zsh theme.<br>
+- [eza](https://github.com/eza-community/eza) - A modern replacement for ls.<br>
 - [z for PowerShell](https://www.powershellgallery.com/packages/z/1.1.9) - Directory jumper<br>
 - [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 
@@ -49,7 +49,6 @@ This configuration can be perfectly adapted to mac, linux or even windows. Depen
 - [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
 - [eza](https://github.com/eza-community/eza) - A modern replacement for ls.<br>
-- [Nerd fonts](https://github.com/ryanoasis/nerd-fonts) - Powerline-patched fonts<br>
 
 ## Tmux Setup
 
