@@ -1,2 +1,11 @@
+# Disable the blank line at the start of the prompt
+add_newline = false
+
+# Modify git branch icon
 [git_branch]
 symbol = ' '
+
+# Replace the '❯' symbol in the prompt with '➜'
+[character] # The name of the module we are configuring is 'character'
+success_symbol = '[➜](bold green)'
+error_symbol= '[➜](bold red)'
