@@ -16,22 +16,6 @@ These dotfiles are likely to change over time. All the config what found in this
 To run this configuration requires neovim >= "9.0".
 This configuration can be perfectly adapted to mac, linux or even windows. Depending on the system will be the dependencies to be installed
 
-#### General dependencies:
-
-**_Neovim:_** `npm install neovim` <br/>
-**_Eslint:_** `npm install -g eslint_d` <br/>
-**_Prettier:_** `npm install -g prettier` <br/>
-**_Stylua:_** `brew install -g stylua` <br/>
-**_ripgrep:_** `brew install ripgrep` <br/>
-
-#### Windows dependencies:
-
-**_Mingw Compiler:_** `scoop install mingw`
-
-#### WSL dependencies:
-
-**_GCC:_** `sudo apt install build-essential`
-
 ## PowerShell Setup
 
 - [Scoop](https://scoop.sh/) - A command-line installer<br>

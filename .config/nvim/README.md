@@ -1,8 +1,17 @@
 # Dependencies
-- `brew install ripgrep`
-- `brew install stylua`
-- `npm i -g eslint_d`
-- `brew install prettier`
+**_Neovim:_** `npm install neovim` <br/>
+**_Eslint:_** `npm install -g eslint_d` <br/>
+**_Prettier:_** `npm install -g prettier` <br/>
+**_Stylua:_** `brew install -g stylua` <br/>
+**_ripgrep:_** `brew install ripgrep` <br/>
+
+## Windows dependencies:
+
+**_Mingw Compiler:_** `scoop install mingw`
+
+## WSL dependencies:
+
+**_GCC:_** `sudo apt install build-essential`
 
 # Packages
 
