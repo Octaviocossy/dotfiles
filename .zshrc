@@ -35,14 +35,13 @@ function openNvim {
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-autosuggestions"
 plug "hlissner/zsh-autopair"
+plug "zap-zsh/supercharge"
 plug "zap-zsh/completions"
 plug "agkozak/zsh-z"
-plug "zap-zsh/supercharge"
 
 # Brew Config (Linux)
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
