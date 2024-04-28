@@ -42,6 +42,3 @@ plug "agkozak/zsh-z"
 # Brew Config (Linux)
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/ovct/.profile
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)

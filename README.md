@@ -11,11 +11,6 @@ These dotfiles are likely to change over time. All the config what found in this
 - Alacritty config.
 - Windows Terminal config.
 
-## Neovim Setup
-
-To run this configuration requires neovim >= "9.0".
-This configuration can be perfectly adapted to mac, linux or even windows. Depending on the system will be the dependencies to be installed
-
 ## PowerShell Setup
 
 - [Scoop](https://scoop.sh/) - A command-line installer<br>
