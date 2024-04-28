@@ -82,6 +82,7 @@ return {
             allFeatures = true,
           },
         },
+        prismals = {},
         lua_ls = {
           settings = {
             Lua = {
@@ -99,6 +100,7 @@ return {
             },
           },
         },
+        tailwindcss = {},
         tsserver = {
           settings = {
             maxTsServerMemory = 12288,
