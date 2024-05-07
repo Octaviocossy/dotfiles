@@ -6,7 +6,6 @@ return {
       require("catppuccin").setup({
         integrations = {
           cmp = true,
-          fidget = true,
           gitsigns = true,
           harpoon = true,
           indent_blankline = {

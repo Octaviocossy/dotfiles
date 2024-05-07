@@ -1,4 +1,5 @@
 require("core.options")
 require("core.keymaps")
+require("core.editor_config")
 require("core.user_commands")
 require("core.lazy")

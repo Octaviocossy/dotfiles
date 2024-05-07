@@ -37,7 +37,7 @@
 - [wilder](https://github.com/gelguy/wilder.nvim) - A more adventurous wildmenu.
 - [mini-ident-scope](https://github.com/echasnovski/mini.indentscope) - Plugin to visualize and operate on indent scope.
 - [comment](https://github.com/numToStr/Comment.nvim) -  Smart and powerful comment plugin for neovim.
-- [fidget](https://github.com/j-hui/fidget.nvim) - Extensible UI for Neovim notifications and LSP progress messages.
+- [noice](https://github.com/folke/noice.nvim) - Replaces the UI for messages, cmdline and the popupmenu.
 - [diffview](https://github.com/sindrets/diffview.nvim) - Single tabpage interface for easily cycling through diffs.
 - [bufferline](https://github.com/akinsho/bufferline.nvim) - A snazzy bufferline for Neovim.
 - [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) - Inject LSP diagnostics.

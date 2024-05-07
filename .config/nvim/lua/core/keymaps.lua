@@ -27,7 +27,7 @@ nnoremap("<leader>sg", function()
 end, { desc = "[S]earch by [G]rep" })
 nnoremap("<leader>/", function()
   require("telescope.builtin").current_buffer_fuzzy_find(
-    require("telescope.themes").get_dropdown({ previewer = false })
+    require("telescope.themes").get_dropdown({ previewer = false, winblend = 10 })
   )
 end, { desc = "[/] Fuzzily search in current buffer]" })
 

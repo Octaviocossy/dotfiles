@@ -3,42 +3,45 @@ return {
     "nvim-lualine/lualine.nvim",
     event = "VeryLazy",
     config = function()
-      local function truncate_branch_name(branch)
-        if not branch or branch == "" then
-          return ""
-        end
-
-        -- Match the branch name to the specified format
-        local user, team, ticket_number = string.match(branch, "^(%w+)/(%w+)%-(%d+)")
-
-        -- If the branch name matches the format, display {user}/{team}-{ticket_number}, otherwise display the full branch name
-        if ticket_number then
-          return user .. "/" .. team .. "-" .. ticket_number
-        else
-          return branch
-        end
-      end
-
       require("lualine").setup({
         options = {
-          theme = "catppuccin",
-          globalstatus = true,
+          icons_enabled = true,
+          theme = "auto",
           component_separators = { left = "", right = "" },
-          section_separators = { left = "█", right = "█" },
+          section_separators = { left = "", right = "" },
+          disabled_filetypes = {
+            statusline = {},
+            winbar = {},
+          },
+          ignore_focus = {},
+          always_divide_middle = true,
+          globalstatus = false,
+          refresh = {
+            statusline = 1000,
+            tabline = 1000,
+            winbar = 1000,
+          },
         },
         sections = {
-          lualine_b = {
-            { "branch", icon = "", fmt = truncate_branch_name },
-            "diff",
-            "diagnostics",
-          },
-          lualine_c = {
-            { "filename", path = 1 },
-          },
-          lualine_x = {
-            "filetype",
-          },
+          lualine_a = { "mode" },
+          lualine_b = { "branch", "diff", "diagnostics" },
+          lualine_c = { "filename" },
+          lualine_x = { "encoding", "fileformat", "filetype" },
+          lualine_y = { "progress" },
+          lualine_z = { "location" },
         },
+        inactive_sections = {
+          lualine_a = {},
+          lualine_b = {},
+          lualine_c = { "filename" },
+          lualine_x = { "location" },
+          lualine_y = {},
+          lualine_z = {},
+        },
+        tabline = {},
+        winbar = {},
+        inactive_winbar = {},
+        extensions = {},
       })
     end,
   },
