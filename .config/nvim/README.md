@@ -5,10 +5,6 @@
 **_Stylua:_** `brew install -g stylua` <br/>
 **_ripgrep:_** `brew install ripgrep` <br/>
 
-## Windows dependencies:
-
-**_Mingw Compiler:_** `scoop install mingw`
-
 ## WSL dependencies:
 
 **_GCC:_** `sudo apt install build-essential`
@@ -41,6 +37,7 @@
 - [diffview](https://github.com/sindrets/diffview.nvim) - Single tabpage interface for easily cycling through diffs.
 - [bufferline](https://github.com/akinsho/bufferline.nvim) - A snazzy bufferline for Neovim.
 - [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) - Inject LSP diagnostics.
+- [navic](https://github.com/SmiteshP/nvim-navic) - Statusline plugin that shows your current code context.
 
 # Keymaps
 
@@ -82,13 +79,16 @@
 
 # Scaffolding
 ```
+├── README.md
 ├── init.lua
 └── lua
     ├── core
+    │   ├── editor_config.lua
     │   ├── init.lua
     │   ├── keymaps.lua
     │   ├── lazy.lua
     │   ├── options.lua
+    │   ├── user_commands.lua
     │   └── utils.lua
     └── plugins
         ├── bufferline.lua
@@ -98,12 +98,13 @@
         ├── copilot.lua
         ├── diffview.lua
         ├── dressing.lua
-        ├── fidget.lua
         ├── gitsigns.lua
         ├── ident_blankline.lua
         ├── lsp.lua
         ├── lualine.lua
         ├── mini_indentscope.lua
+        ├── navic.lua
+        ├── noice.lua
         ├── nvim_notify.lua
         ├── oil.lua
         ├── spectre.lua

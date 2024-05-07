@@ -55,6 +55,11 @@ return {
       ---@diagnostic disable-next-line: unused-local
       local on_attach = function(_client, buffer_number)
         -- Pass the current buffer to map lsp keybinds
+        --
+        if _client.supports_method("textDocument/documentSymbol") then
+          require("nvim-navic").attach(_client, buffer_number)
+        end
+
         map_lsp_keybinds(buffer_number)
       end
 

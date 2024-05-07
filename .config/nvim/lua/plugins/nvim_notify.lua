@@ -9,7 +9,7 @@ return {
 
       -- Override notify function to filter out messages
       ---@diagnostic disable-next-line: duplicate-set-field
-      vim.notify = function(message, level, opts)
+      vim.notify = function(message, opts)
         local merged_opts = vim.tbl_extend("force", {
           on_open = function(win)
             local buf = vim.api.nvim_win_get_buf(win)
@@ -18,11 +18,12 @@ return {
         }, opts or {})
 
         for _, msg in ipairs(filtered_message) do
+          notify(message)
           if message == msg then
             return
           end
         end
-        return notify(message, level, merged_opts)
+        return notify(message, merged_opts)
       end
 
       -- Update colors to use catpuccino colors
