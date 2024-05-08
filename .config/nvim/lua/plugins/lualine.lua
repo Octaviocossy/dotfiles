@@ -4,14 +4,14 @@ return {
     event = "VeryLazy",
     config = function()
       local function copilot()
-        local icon = ""
-        local status = require("copilot.api").status.data
-        return icon .. status.message or ""
+        return "" .. require("copilot.api").status.data.message or ""
       end
 
       local function navic()
         if require("nvim-navic").is_available() then
           return " " .. require("nvim-navic").get_location()
+        else
+          return " "
         end
       end
 
