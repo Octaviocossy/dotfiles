@@ -5,11 +5,11 @@ TERM = "xterm-256color"
 size = 9
 
 [font.normal]
-family = "Hack Nerd Font Mono"
+family = "JetBrainsMono Nerd Font Mono"
 style = "Regular"
 
-[font.offset]
-y = 2
+# [font.offset]
+# y = 1
 
 [[keyboard.bindings]]
 action = "ToggleFullscreen"
@@ -22,45 +22,45 @@ program = "/bin/zsh"
 opacity = 1
 
 [window.dimensions]
-columns = 123
-lines = 38
+columns = 120
+lines = 30
 
 [colors.primary]
-background = "#24273A"
+background = "#1f1e2f"
 foreground = "#CAD3F5"
 dim_foreground = "#CAD3F5"
 bright_foreground = "#CAD3F5"
 
 [colors.cursor]
-text = "#24273A"
+text = "#1f1e2f"
 cursor = "#F4DBD6"
 
 [colors.vi_mode_cursor]
-text = "#24273A"
+text = "#1f1e2f"
 cursor = "#B7BDF8"
 
 [colors.search.matches]
-foreground = "#24273A"
+foreground = "#1f1e2f"
 background = "#A5ADCB"
 
 [colors.search.focused_match]
-foreground = "#24273A"
+foreground = "#1f1e2f"
 background = "#A6DA95"
 
 [colors.footer_bar]
-foreground = "#24273A"
+foreground = "#1f1e2f"
 background = "#A5ADCB"
 
 [colors.hints.start]
-foreground = "#24273A"
+foreground = "#1f1e2f"
 background = "#EED49F"
 
 [colors.hints.end]
-foreground = "#24273A"
+foreground = "#1f1e2f"
 background = "#A5ADCB"
 
 [colors.selection]
-text = "#24273A"
+text = "#1f1e2f"
 background = "#F4DBD6"
 
 [colors.normal]
