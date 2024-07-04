@@ -1,8 +1,175 @@
-# Disable the blank line at the start of the prompt
-add_newline = false
+"$schema" = 'https://starship.rs/config-schema.json'
+
+format = """
+[](overlay0)\
+$os\
+$username\
+[](bg:peach fg:overlay0)\
+$directory\
+[](fg:peach bg:green)\
+$git_branch\
+$git_status\
+[](fg:green bg:sky)\
+$c\
+$rust\
+$golang\
+$nodejs\
+$php\
+$java\
+$kotlin\
+$haskell\
+$python\
+[](fg:sky bg:pink)\
+$docker_context\
+$conda\
+[](fg:pink bg:pink)\
+$time\
+[ ](fg:pink)\
+$line_break$character"""
+
+palette = 'catppuccin_macchiato'
+
+[palettes.catppuccin_macchiato]
+rosewater = "#f4dbd6"
+flamingo = "#f0c6c6"
+pink = "#f5bde6"
+mauve = "#c6a0f6"
+red = "#ed8796"
+maroon = "#ee99a0"
+peach = "#f5a97f"
+yellow = "#eed49f"
+green = "#a6da95"
+teal = "#8bd5ca"
+sky = "#91d7e3"
+sapphire = "#7dc4e4"
+blue = "#8aadf4"
+lavender = "#b7bdf8"
+text = "#fafafa"
+subtext1 = "#b8c0e0"
+subtext0 = "#a5adcb"
+overlay2 = "#939ab7"
+overlay1 = "#8087a2"
+overlay0 = "#6e738d"
+black_text = "#2a2a2a"
+surface2 = "#5b6078"
+surface1 = "#494d64"
+surface0 = "#363a4f"
+base = "#24273a"
+mantle = "#1e2030"
+crust = "#181926"
+
+[os]
+disabled = false
+style = "bg:overlay0 fg:text"
+
+[os.symbols]
+Windows = "󰍲"
+Ubuntu = "󰕈"
+SUSE = ""
+Raspbian = "󰐿"
+Mint = "󰣭"
+Macos = "󰀵"
+Manjaro = ""
+Linux = "󰌽"
+Gentoo = "󰣨"
+Fedora = "󰣛"
+Alpine = ""
+Amazon = ""
+Android = ""
+Arch = "󰣇"
+Artix = "󰣇"
+CentOS = ""
+Debian = "󰣚"
+Redhat = "󱄛"
+RedHatEnterprise = "󱄛"
+
+[username]
+show_always = true
+style_user = "bg:overlay0 fg:text"
+style_root = "bg:overlay0 fg:text"
+format = '[ $user ]($style)'
+
+[directory]
+style = "fg:black_text bg:peach"
+format = "[ $path ]($style)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
 
 [git_branch]
-symbol = " "
+symbol = ""
+style = "bg:green"
+format = '[[ $symbol $branch ](fg:black_text bg:green)]($style)'
+
+[git_status]
+style = "bg:green"
+format = '[[($all_status$ahead_behind )](fg:black_text bg:green)]($style)'
+
+[nodejs]
+symbol = ""
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[c]
+symbol = " "
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[php]
+symbol = ""
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[java]
+symbol = " "
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[kotlin]
+symbol = ""
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[haskell]
+symbol = ""
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[python]
+symbol = ""
+style = "bg:sky"
+format = '[[ $symbol( $version) ](fg:black_text bg:sky)]($style)'
+
+[docker_context]
+symbol = ""
+style = "bg:overlay0"
+format = '[[ $symbol( $context) ](fg:black_text bg:sky)]($style)'
+
+[conda]
+style = "bg:overlay0"
+format = '[[ $symbol( $environment) ](fg:black_text bg:sky)]($style)'
+
+[time]
+disabled = false
+time_format = "%R"
+style = "bg:overlay0"
+format = '[[  $time ](fg:black_text bg:pink)]($style)'
 
 [line_break]
 disabled = false
