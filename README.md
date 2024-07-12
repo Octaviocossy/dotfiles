@@ -6,7 +6,6 @@ These dotfiles are likely to change over time. All the config what found in this
 
 - Zsh config.
 - Tmux config.
-- Neovim config.
 - PowerShell config.
 - Alacritty config.
 - Windows Terminal config.
