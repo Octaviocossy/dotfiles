@@ -15,6 +15,9 @@ alias tms="tmux source ~/.tmux.conf"
 # LazyGit
 alias lg="lazygit"
 
+# Macchina
+alias dets="macchina"
+
 # eza alias
 alias l="eza -a -l -g" # Add --icons to display them
 alias ls="eza -a"

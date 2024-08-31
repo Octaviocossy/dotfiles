@@ -27,6 +27,7 @@ These dotfiles are likely to change over time. All the config what found in this
 - [Lazygit](https://github.com/jesseduffield/lazygit) - Simple terminal UI for git commands.<br>
 - [zap](https://github.com/zap-zsh/zap) - A minimal zsh plugin manager<br>
 - [eza](https://github.com/eza-community/eza) - A modern replacement for ls.<br>
+- [macchina](https://github.com/Macchina-CLI/macchina) - A system information frontend with an emphasis on performance.<br>
 
 ## Tmux Setup
 
