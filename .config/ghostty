@@ -1,0 +1,15 @@
+theme = GitHub Dark
+
+font-family = FiraCode Nerd Font Mono
+font-thicken
+font-synthetic-style = bold
+font-size = 12
+
+cursor-style = block
+cursor-style-blink = true
+
+background-opacity = 0.90
+background-blur-radius = 15
+
+window-height = 40
+window-width = 110

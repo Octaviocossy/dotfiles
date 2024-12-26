@@ -19,20 +19,13 @@ alias lg="lazygit"
 alias dets="macchina"
 
 # eza alias
-alias l="eza -a -l -g" # Add --icons to display them
-alias ls="eza -a"
-alias la="eza -a -l -g"
-alias lla="eza -a -l -g"
+alias l="eza -a -l -g --icons" # Add --icons to display them
+alias ls="eza -a --icons"
+alias la="eza -a -l -g --icons"
+alias lla="eza -a -l -g --icons"
 
 # Nvim
-alias v=openNvim
-function openNvim {
-  if [ $# -eq 0 ]; then
-    nvim .
-  else
-    nvim $1
-  fi
-}
+alias v="nvim"
 
 # Plugins
 plug "zsh-users/zsh-syntax-highlighting"
