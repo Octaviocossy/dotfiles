@@ -11,5 +11,5 @@ cursor-style-blink = true
 background-opacity = 0.90
 background-blur-radius = 15
 
-window-height = 40
-window-width = 110
+window-height = 45
+window-width = 120
