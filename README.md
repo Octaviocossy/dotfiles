@@ -7,7 +7,7 @@ These dotfiles are likely to change over time. All the config what found in this
 - Zsh config.
 - Tmux config.
 - PowerShell config.
-- Alacritty config.
+- Ghostty config.
 - Windows Terminal config.
 
 ## PowerShell Setup
